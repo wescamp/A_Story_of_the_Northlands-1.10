@@ -1,0 +1,2076 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: A_Story_of_the_Northlands-1.10\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-28 16:36-0400\n"
+"PO-Revision-Date: 2013-03-28 16:36-0400\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ang@latin\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2;\n"
+
+#. [campaign]: id=A_Story_of_the_Northlands
+#: A_Story_of_the_Northlands/_main.cfg:11
+msgid "A Story of the Northlands"
+msgstr ""
+
+#. [campaign]: id=A_Story_of_the_Northlands
+#: A_Story_of_the_Northlands/_main.cfg:12
+msgid "ASotN"
+msgstr ""
+
+#. [campaign]: id=A_Story_of_the_Northlands
+#: A_Story_of_the_Northlands/_main.cfg:16
+msgid ""
+"&units/human-loyalists/cavalryman.png=Easy;*&units/human-loyalists/dragoon."
+"png=Medium;&units/human-loyalists/cavalier.png=Difficult"
+msgstr ""
+
+#. [campaign]: id=A_Story_of_the_Northlands
+#: A_Story_of_the_Northlands/_main.cfg:20
+msgid ""
+"A story of life and death in a remote village of the Northlands.\n"
+"11 scenarios, all playable, intermediate level."
+msgstr ""
+
+#. [about]
+#: A_Story_of_the_Northlands/_main.cfg:24
+msgid "Images"
+msgstr ""
+
+#. [entry]
+#: A_Story_of_the_Northlands/_main.cfg:26
+msgid "Some mounted units come from Great Legend Era and Fate of a Princess"
+msgstr ""
+
+#. [entry]
+#: A_Story_of_the_Northlands/_main.cfg:29
+msgid "Some orcish and human units come from RPG Creation Kit"
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:6
+msgid ""
+"This is the story of what happened in a remote colony of the Kingdom, "
+"established long ago on the Southern bank of river Longlier -- Arkan-thoria "
+"for the Elves."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:9
+msgid ""
+"The village was so remote that even its name has been long forgotten, but "
+"the events of that winter deserve to be told. It's a story of life, death, "
+"slavery, revenge, freedom."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:12
+msgid ""
+"It all started when the villagers managed to build a bridge across Longlier, "
+"in the hope of having little more fields to farm and little more forests to "
+"hunt. The village was poor but this didn't stop the orcs who, seen a "
+"peaceful village just across a bridge, rushed to raid it."
+msgstr ""
+
+#. [message]: speaker=Caror
+#. [message]: speaker=unit
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:83
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:549
+msgid "At least I die as a free man..."
+msgstr ""
+
+#. [scenario]: id=01_Prologue
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:89
+msgid "Prologue"
+msgstr ""
+
+#. [objective]: condition=win
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:104
+msgid "Survive"
+msgstr ""
+
+#. [objective]: condition=lose
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:108
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:410
+msgid "Death of Caror"
+msgstr ""
+
+#. [objective]: condition=lose
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:112
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:422
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:65
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:51
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:66
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:52
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:55
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:67
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:61
+#: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:54
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:51
+msgid "Turns run out"
+msgstr ""
+
+#. [side]: type=Bandit, id=Caror
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:121
+msgid "Caror"
+msgstr ""
+
+#. [side]: type=Bandit, id=Caror
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:129
+msgid "Villagers"
+msgstr ""
+
+#. [unit]: id=Doc, type=Brute
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:132
+msgid "Doc"
+msgstr ""
+
+#. [side]: type=Goblin Pillager, id=Badush
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:174
+msgid "Badush"
+msgstr ""
+
+#. [side]
+#. [side]: type=Direwolf Rider
+#. [side]: type=Goblin Pillager, id=Badush
+#. [side]: type=Orcish Ruler, id=ruler
+#. [side]: type=Orcish Slurbow
+#. [side]: type=Orcish Sovereign, id=chief
+#. [side]: type=Orcish Sovereign, id=ruler
+#. [side]: type=Orcish Warlord
+#. [side]: type=Orcish Warlord, id=Eradash
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:181
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:188
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:92
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:105
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:142
+#: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:94
+#: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:105
+#: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:116
+#: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:124
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:87
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:100
+msgid "Orcs"
+msgstr ""
+
+#. [label]
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:196
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:190
+msgid "Longlier"
+msgstr ""
+
+#. [message]: speaker=Doc
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:204
+msgid "Chief, orcs are in sight!"
+msgstr ""
+
+#. [message]: speaker=Caror
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:209
+msgid "Oh no! Maybe building that bridge hasn't been a good idea."
+msgstr ""
+
+#. [message]: speaker=Caror
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:214
+msgid ""
+"Everybody! To arms! We need to protect our home. If they manage to pass the "
+"bridge we are lost."
+msgstr ""
+
+#. [message]: speaker=Badush
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:219
+msgid ""
+"You'd better surrender and work for us as slaves. If you fight you'll "
+"receive no mercy."
+msgstr ""
+
+#. [message]: speaker=Caror
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:224
+msgid "Never! Better to die for freedom than to live in slavery!"
+msgstr ""
+
+#. [message]: speaker=Caror
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:250
+msgid "A boat. What's happening?"
+msgstr ""
+
+#. [unit]: type=Orcish Slayer, id=Vuk
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:257
+msgid "Vuk"
+msgstr ""
+
+#. [message]: speaker=Vuk
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:270
+msgid "It seems I have arrived in time!"
+msgstr ""
+
+#. [unit]: type=Orcish Assassin, id=Grak
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:287
+msgid "Grak"
+msgstr ""
+
+#. [message]: speaker=Vuk
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:294
+msgid "Grak, try to move around the village and kill their leader."
+msgstr ""
+
+#. [message]: speaker=Caror
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:309
+msgid "Oh no! We can't face both. Alena! Aethen!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:313
+msgid ""
+"Following their father's call, Alena, a young woman, and Aethen, little more "
+"than a child, approached Caror."
+msgstr ""
+
+#. [side]: type=Rebel Fighter, id=Alena
+#. [unit]: type=Thief, id=Alena
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:330
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:61
+msgid "Alena"
+msgstr ""
+
+#. [side]: type=Rancher, id=Aethen
+#. [unit]: type=Rancher, id=Aethen
+#. [unit]: type=Ruffian, id=Aethen
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:348
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:74
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:194
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:206
+msgid "Aethen"
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:368
+msgid "Yes, father. We are here."
+msgstr ""
+
+#. [message]: speaker=Caror
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:372
+msgid ""
+"Aethen, I need you to go to call reinforcements. Take my horse and my spear "
+"and follow the river until you find a fort. There should be one before you "
+"arrive to river Listra. Tell them to send soldiers. Many soldiers. Take the "
+"southern path."
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:383
+msgid "Even if he finds soldiers, they won't arrive in time!"
+msgstr ""
+
+#. [message]: speaker=Caror
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:387
+msgid ""
+"I know, but he is a fast rider. He is the only one among us who rides fast "
+"enough. And at least this will keep him away from the orcs."
+msgstr ""
+
+#. [message]: speaker=Caror
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:391
+msgid ""
+"I want you to leave the village now. We can't resist them, they are too "
+"many. Go away!"
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:395
+msgid "No! I can fight. I want to stay."
+msgstr ""
+
+#. [message]: speaker=Caror
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:399
+msgid ""
+"NO. Go away, hide in the forest, they won't find you. Stay hidden until "
+"soldiers arrive."
+msgstr ""
+
+#. [objective]: condition=win
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:406
+msgid "Move Alena into the forest and Aethen to the southern path"
+msgstr ""
+
+#. [objective]: condition=lose
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:414
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:47
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:48
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:319
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:59
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:378
+#: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:50
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:47
+msgid "Death of Alena"
+msgstr ""
+
+#. [objective]: condition=lose
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:418
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:57
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:43
+msgid "Death of Aethen"
+msgstr ""
+
+#. [message]: speaker=Caror
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:442
+msgid "Ride as fast as you can!"
+msgstr ""
+
+#. [message]: speaker=Aethen
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:461
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:518
+msgid "Father! Nooo..."
+msgstr ""
+
+#. [message]: speaker=Caror
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:494
+msgid "Go! Stay hidden!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:498
+msgid ""
+"Before disappearing, Alena stole some poison from the corpse of an "
+"assassin..."
+msgstr ""
+
+#. [message]: speaker=unit
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:563
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:581
+msgid "No! Father help me!"
+msgstr ""
+
+#. [message]: speaker=Caror
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:567
+msgid "Alena! No!"
+msgstr ""
+
+#. [message]: speaker=Caror
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:585
+msgid "Aethen! No!"
+msgstr ""
+
+#. [message]: speaker=Caror
+#. [message]: speaker=Ludoc
+#: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:596
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:281
+msgid "Oh, no! More orcs are coming."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:6
+msgid ""
+"After leaving the village, Aethen rode for two days and two nights along the "
+"river, without meeting any single living being."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:9
+msgid ""
+"On the third day, he saw in the distance the shape of high walls: he had "
+"reached the fort."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:12
+msgid ""
+"But there was something wrong: the castle was empty and the nearby villages "
+"were ruined and abandoned. In despair, he wandered for the fort for a while, "
+"but he couldn't find anybody. So, with tears in his eyes, he mounted his "
+"horse again and, riding faster than ever, kept following the river, South "
+"and East."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:15
+msgid ""
+"He soon lost sense of time, so it's impossible to say how many days he rode, "
+"but one morning he found himself surrounded by a thick fog: river Listra was "
+"near. He was tired, but he knew that men were near."
+msgstr ""
+
+#. [scenario]: id=02_Escape
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:37
+msgid "Escape"
+msgstr ""
+
+#. [objective]: condition=win
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:53
+msgid "Reach the human fort"
+msgstr ""
+
+#. [objective]: condition=lose
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:61
+msgid "Death of human leader"
+msgstr ""
+
+#. [side]: type=Rancher, id=Aethen
+#. [unit_type]: id=ASotN_Fugitive, race=human
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:81
+#: A_Story_of_the_Northlands/units/ASotN-Fugitive.cfg:4
+msgid "Fugitive"
+msgstr ""
+
+#. [side]: type=Naga Myrmidon
+#. [side]: type=Naga Myrmidon, id=Amailis
+#. [side]: type=Naga Warrior
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:97
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:128
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:88
+msgid "Nagas"
+msgstr ""
+
+#. [side]: type=Lieutenant, id=Caredd
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:121
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:109
+msgid "Caredd"
+msgstr ""
+
+#. [side]: type=Lieutenant, id=Caredd
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:128
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:116
+msgid "Wesnothian Army"
+msgstr ""
+
+#. [side]
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:153
+msgid "Monsters"
+msgstr ""
+
+#. [label]
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:196
+msgid "Listra"
+msgstr ""
+
+#. [message]: speaker=Aethen
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:204
+msgid ""
+"There's a human fort down there. I must reach it. But I must be careful... "
+"who knows what inhabits the river and the hills..."
+msgstr ""
+
+#. [message]: speaker=Caredd
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:255
+msgid "Who are you and what are you doing here? These are dangerous lands."
+msgstr ""
+
+#. [message]: speaker=Aethen
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:259
+msgid "The village... orcs... my father..."
+msgstr ""
+
+#. [message]: speaker=Caredd
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:263
+msgid "Calm down and take some rest. We'll speak later."
+msgstr ""
+
+#. [message]: speaker=Aethen
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:267
+msgid "No! There's no time. I'll tell you now."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:271
+msgid "After the explanations..."
+msgstr ""
+
+#. [message]: speaker=Caredd
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:276
+msgid ""
+"I see the problem. But I'm sorry to say that I have no men to spare here. As "
+"you have seen we are constantly under attack, and I'd need reinforcements "
+"myself. Goblin riders have been spotted and they'll be here in the next few "
+"days, and these water creatures are always troubling us."
+msgstr ""
+
+#. [message]: speaker=Aethen
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:280
+msgid "So what can we do?"
+msgstr ""
+
+#. [message]: speaker=Caredd
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:284
+msgid ""
+"We'll have a ship leaving in a few days, heading to Weldyn. We will send "
+"messages to the King and ask for help. Hopefully they will send some "
+"reinforcements."
+msgstr ""
+
+#. [message]: speaker=Aethen
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:288
+msgid "But they will take weeks or months to arrive!"
+msgstr ""
+
+#. [message]: speaker=Caredd
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:292
+msgid ""
+"I know, but it's the best thing we can do. Now go and take some rest. You "
+"are safe here."
+msgstr ""
+
+#. [message]: speaker=unit
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:307
+msgid "Oh no! Nobody will ever know about our village!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:321
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:286
+msgid "The fort is lost!"
+msgstr ""
+
+#. [message]: speaker=Aethen
+#: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:332
+msgid "Oh, no! I fear I got lost with this fog."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:6
+msgid ""
+"In the meantime, some other peasants escaped from the village into the "
+"forest, but most of the population was forced to work as slaves of the orcs."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:9
+msgid ""
+"The orcs felt too strong to worry about few fugitive peasants. They were "
+"right."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:12
+msgid ""
+"But the peasants gathered themselves under the leadership of Alena. They "
+"trained in combat and grew in confidence. They learned to move fast and "
+"unnoticed in woods. Alena herself worked hard to improve her skills and "
+"learned to use the poison."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:15
+msgid ""
+"When a group of goblins was spotted in the vicinity of the river, Alena "
+"decided it was time to strike back."
+msgstr ""
+
+#. [scenario]: id=03_Resistance
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:27
+msgid "Resistance"
+msgstr ""
+
+#. [objective]: condition=win
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:43
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:315
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:45
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:31
+msgid "Defeat all enemy leaders"
+msgstr ""
+
+#. [side]: type=Rebel Fighter, id=Alena
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:67
+msgid "Rebels"
+msgstr ""
+
+#. [unit]: type=ASotN_Robber, id=Albert
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:77
+msgid "Albert"
+msgstr ""
+
+#. [side]: type=Goblin Impaler
+#. [side]: type=Goblin Rouser
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:96
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:107
+msgid "Goblins"
+msgstr ""
+
+#. [message]: speaker=Albert
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:115
+msgid ""
+"We aren't strong enough to directly attack our village, but those goblins "
+"shouldn't be too difficult to defeat if we attack them from the forest."
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:119
+msgid ""
+"It's time the orcs learn what is fear. Show no mercy for them, remember what "
+"they have done to our families."
+msgstr ""
+
+#. [message]: speaker=Albert
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:123
+msgid "We can close them between us and the river. They'll have no way out."
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:127
+msgid "Leave nobody alive."
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:139
+msgid ""
+"Kill till the last of them. And hide their corpses. I want no trace of what "
+"has happened here."
+msgstr ""
+
+#. [message]: speaker=unit
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:155
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:336
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:263
+#: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:234
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:224
+msgid "I will never have my revenge..."
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:166
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:347
+#: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:245
+msgid "There are too many of them!"
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:6
+msgid ""
+"Received the news of the struggles troubling his northern colonies, the King "
+"of Wesnoth decided to send a pack of cavalry."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:9
+msgid ""
+"Head of this company was a young officer, Ludoc. With him, a veteran knight "
+"of the Royal Army, Sir Rheran, known for riding the fastest horse in Wesnoth."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:12
+msgid ""
+"A pack of cavalry was an impressive sight, so when the party left Weldyn, at "
+"dawn, there was a huge crowd to see them. The knights hoped to reach the "
+"northern fort in a few days."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:15
+msgid "But troubles were closer than they thought..."
+msgstr ""
+
+#. [scenario]: id=04_Knights
+#. [side]: type=Junior Commander, id=Ludoc
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:34
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:82
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:69
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:75
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:42
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:64
+msgid "Knights"
+msgstr ""
+
+#. [objective]: condition=win
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:50
+msgid "Defeat enemy leader"
+msgstr ""
+
+#. [objective]: condition=lose
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:54
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:47
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:49
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:35
+msgid "Death of Ludoc"
+msgstr ""
+
+#. [objective]: condition=lose
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:58
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:51
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:53
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:39
+msgid "Death of Sir Rheran"
+msgstr ""
+
+#. [objective]: condition=lose
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:62
+msgid "Death of Okeanos"
+msgstr ""
+
+#. [side]: type=Junior Commander, id=Ludoc
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:76
+msgid "Ludoc"
+msgstr ""
+
+#. [unit]: type=Royal Knight, id=Rheran
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:92
+msgid "Sir Rheran"
+msgstr ""
+
+#. [side]: type=Merman Triton, id=Okeanos
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:107
+msgid "Okeanos"
+msgstr ""
+
+#. [side]: type=Merman Triton, id=Okeanos
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:114
+msgid "Merfolk"
+msgstr ""
+
+#. [side]: type=Naga Myrmidon, id=Amailis
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:121
+msgid "Amailis"
+msgstr ""
+
+#. [label]
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:159
+msgid "Great River"
+msgstr ""
+
+#. [message]: speaker=Ludoc
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:167
+msgid "I hear sounds of battle and cries of wounded. What's happening?"
+msgstr ""
+
+#. [message]: speaker=Okeanos
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:171
+msgid ""
+"Noble Knights, nagas are troubling us. They want to steal our gold and they "
+"kill our women and children. Help us and we will be forever grateful!"
+msgstr ""
+
+#. [message]: speaker=Ludoc
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:175
+msgid "We can't waste time here. Our journey is still long."
+msgstr ""
+
+#. [message]: speaker=Rheran
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:179
+msgid ""
+"But it's our duty of knights to help those in need. We can't just pass by "
+"while they are killed. Besides this, we must pass that bridge and we would "
+"be right in the middle of the conflict."
+msgstr ""
+
+#. [unit]: type=Mage, id=Hermit
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:196
+msgid "Hermit"
+msgstr ""
+
+#. [message]: speaker=Hermit
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:203
+msgid "Please, leave me alone and don't disturb my meditation."
+msgstr ""
+
+#. [message]: speaker=unit
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:217
+msgid "I told you we shouldn't have stopped here..."
+msgstr ""
+
+#. [message]: speaker=unit
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:231
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:179
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:272
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:252
+msgid "Farewell... continue without me..."
+msgstr ""
+
+#. [message]: speaker=unit
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:245
+msgid "Noble Knights, I trusted you, but you failed us..."
+msgstr ""
+
+#. [message]: speaker=unit
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:259
+msgid "Bad humans and bad horses... you'll pay for this..."
+msgstr ""
+
+#. [message]: speaker=Ludoc
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:263
+msgid "Not today. Let's go men."
+msgstr ""
+
+#. [message]: speaker=Ludoc
+#: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:276
+msgid "We are wasting too much time here!"
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:6
+msgid ""
+"Alena and her people, having greatly improved their skills, kept attacking "
+"small orc and goblin groups, never leaving any survivor. Entire groups "
+"disappeared without a trace in the time of a night."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:9
+msgid ""
+"Among the orcs was rising a story of something terrible happening if some of "
+"them was surprised outside villages at night. No orc had any clue of the "
+"responsible of the disappearances. But they knew there was something "
+"outside, almost unnatural."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:12
+msgid "They began to call them the Shadows."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:15
+msgid ""
+"And the Shadows were ready to strike again. This time the target was a small "
+"orcish village across the river."
+msgstr ""
+
+#. [scenario]: id=05_Shadows
+#. [side]
+#. [side]: type=Rebel Fighter, id=Alena
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:28
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:66
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:81
+#: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:68
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:62
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:73
+msgid "Shadows"
+msgstr ""
+
+#. [objective]: condition=win
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:44
+msgid "Defeat Eradash"
+msgstr ""
+
+#. [unit]: type=ASotN_Footpad, id=Blaec
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:72
+msgid "Blaec"
+msgstr ""
+
+#. [side]: type=Orcish Warlord, id=Eradash
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:85
+msgid "Eradash"
+msgstr ""
+
+#. [side]
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:101
+msgid "Wolves"
+msgstr ""
+
+#. [unit]: type=Goblin Knight, id=wolf4
+#. [unit]: type=Goblin Knight, id=wolf5
+#. [unit]: type=Goblin Knight, id=wolf6
+#. [unit]: type=Goblin Pillager, id=wolf2
+#. [unit]: type=Goblin Pillager, id=wolf3
+#. [unit]: type=Wolf Rider, id=wolf1
+#. [unit]: type=Wolf Rider, id=wolf7
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:106
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:119
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:132
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:145
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:158
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:171
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:184
+msgid "Goblin Guard"
+msgstr ""
+
+#. [message]: speaker=Blaec
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:206
+msgid ""
+"Winter is much harsher north of the river. We must be careful not to be "
+"caught in snow."
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:210
+msgid ""
+"And we should try to avoid wolves. Stay away from them if you can and "
+"remember they can't see us while we are in forests. We can deal about them "
+"later. Our priority is that big orc down there."
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:230
+msgid "This mist makes everything harder. Now we can't see wolves."
+msgstr ""
+
+#. [message]: speaker=unit
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:244
+msgid "Enemies in sight!"
+msgstr ""
+
+#. [unit]: type=Goblin Rouser, id=Hogor
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:275
+msgid "Hogor"
+msgstr ""
+
+#. [message]: id=Hogor
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:300
+msgid "My pets have smelt something. Get them!"
+msgstr ""
+
+#. [message]: id=Alena
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:305
+msgid "They spotted us! Now we must kill them as well!"
+msgstr ""
+
+#. [objective]: condition=lose
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:323
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:382
+msgid "Time runs out"
+msgstr ""
+
+#. [message]: speaker=unit
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:361
+msgid "Defeated... by a band of little humans..."
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:369
+msgid ""
+"That's another blow to the orcish power in this area. But it's not enough to "
+"free our village, there are too many orcs in these surroundings. We must do "
+"something more."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:6
+msgid "Ludoc and his pack of cavalry continued their ride North."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:9
+msgid ""
+"Their path had to cross the Swamp of Dread, where more troubles expected "
+"them."
+msgstr ""
+
+#. [scenario]: id=06_Swamps
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:26
+msgid "Swamps"
+msgstr ""
+
+#. [objective]: condition=win
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:43
+msgid "Escape the swamp with Ludoc"
+msgstr ""
+
+#. [side]: type=Saurian Flanker, id=Krarax
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:78
+msgid "Krarax"
+msgstr ""
+
+#. [side]: type=Saurian Flanker, id=Krarax
+#. [side]: type=Saurian Oracle
+#. [side]: type=Saurian Soothsayer
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:85
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:96
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:107
+msgid "Saurians"
+msgstr ""
+
+#. [message]: speaker=Ludoc
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:118
+msgid "So this is the Swamp of Dread. Now I understand its name..."
+msgstr ""
+
+#. [message]: speaker=Rheran
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:122
+msgid "Let's hope this fog hides us from whatever lives here."
+msgstr ""
+
+#. [message]: speaker=Krarax
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:127
+msgid "Humansss with shiny sspearsss! Kill them! Take their gold!"
+msgstr ""
+
+#. [message]: speaker=Ludoc
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:131
+msgid "Lizards... We must get out of here! Fast!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:149
+msgid "We have made it. Onwards!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:165
+msgid "Killed by a bunch of lizards..."
+msgstr ""
+
+#. [message]: speaker=Ludoc
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:193
+msgid "This lizard had some gold hidden. Take it."
+msgstr ""
+
+#. [message]: speaker=Ludoc
+#: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:205
+msgid "We got lost! We must start over."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:6
+msgid ""
+"Alena's small army kept attacking orcish villages and groups, but she knew "
+"that they were only dealing minor damages to the orcish power."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:9
+msgid ""
+"One day, they found a map on a corpse, a map showing the path of a caravan "
+"of supplies directed towards their occupied village."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:12
+msgid ""
+"There was a date on the map. It was the next day. So Alena took a few fast "
+"and unwounded fighters and rushed there, hoping to intercept the caravan."
+msgstr ""
+
+#. [scenario]: id=07_Ambush
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:26
+msgid "Ambush"
+msgstr ""
+
+#. [objective]: condition=win
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:55
+msgid "Destroy all caravans"
+msgstr ""
+
+#. [objective]: condition=lose
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:63
+msgid "A caravan manages to escape"
+msgstr ""
+
+#. [unit]: type=ASotN_Trapper, id=Cunry
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:87
+msgid "Cunry"
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:223
+msgid ""
+"Cunry should be in position on the other side of the valley. We'll take them "
+"in the middle. But I fear we are too few."
+msgstr ""
+
+#. [message]: speaker=Cunry
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:227
+msgid ""
+"We are ready. Their leader has a bag of gold with him. It would be useful to "
+"get it."
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:248
+msgid "Take his gold."
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:274
+msgid "We have too few veterans for this. These orcs are too strong!"
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:289
+msgid "A caravan managed to pass by!"
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:311
+msgid "He has escaped! Let's now concentrate on the caravans."
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:368
+msgid ""
+"The caravans are destroyed but more wolves are coming. Everybody retire "
+"South. We can't face all of them in an open battle."
+msgstr ""
+
+#. [objective]: condition=win
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:374
+msgid "Move Alena to the signpost"
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:390
+msgid "Still $caravans_to_destroy. Keep fighting!"
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:410
+msgid ""
+"Very well! Now we can reorganize and easily beat them if they dare to follow "
+"us."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:6
+msgid ""
+"After another long journey, the knights finally arrived in sight of the fort "
+"on river Listra."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:9
+msgid "The orcs were already there..."
+msgstr ""
+
+#. [scenario]: id=08_Charge
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:29
+msgid "Charge"
+msgstr ""
+
+#. [objective]: condition=lose
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:57
+msgid "Death of Caredd"
+msgstr ""
+
+#. [message]: speaker=Ludoc
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:168
+msgid "The fort is under attack! We must protect it!"
+msgstr ""
+
+#. [message]: speaker=Caredd
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:172
+msgid "Knights from Wesnoth! We are safe!"
+msgstr ""
+
+#. [message]: speaker=Caredd
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:184
+msgid "We owe you our lives, Knights."
+msgstr ""
+
+#. [message]: speaker=Rheran
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:188
+msgid ""
+"It was our duty. Now we must head North along Longlier to free an attacked "
+"village."
+msgstr ""
+
+#. [message]: speaker=Aethen
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:221
+msgid "My village! You are going to free my village!"
+msgstr ""
+
+#. [message]: speaker=Rheran
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:225
+msgid "Who is this child?"
+msgstr ""
+
+#. [message]: speaker=Aethen
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:229
+msgid ""
+"I'm the son of the village chief. He sent me to look for help. Now I'll come "
+"with you."
+msgstr ""
+
+#. [message]: speaker=Rheran
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:233
+msgid ""
+"No way! It will be hard enough without having a child to care about. Stay "
+"here until we are back."
+msgstr ""
+
+#. [message]: speaker=Aethen
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:237
+msgid "But..."
+msgstr ""
+
+#. [message]: speaker=Rheran
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:241
+msgid "You will stay here!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:258
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:238
+msgid "We failed..."
+msgstr ""
+
+#. [message]: speaker=Ludoc
+#: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:297
+msgid "There are too many of them! We are hopeless!"
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:6
+msgid ""
+"Great news for Alena: from an orcish patrol they ambushed, they learned that "
+"four orcish shamans were visiting a nearby tribe."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:9
+msgid ""
+"It was a unique occasion. With the shamans dead, orcs would have been unable "
+"to organize a compact army for a while."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:12
+msgid ""
+"There was only one problem: the shamans were always heavily protected by "
+"loyal guards."
+msgstr ""
+
+#. [scenario]: id=09_Revenge
+#: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:27
+msgid "Revenge"
+msgstr ""
+
+#. [objective]: condition=win
+#: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:46
+msgid "Kill the four shamans"
+msgstr ""
+
+#. [unit]: type=ASotN_Bandit, id=Demyr
+#: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:74
+msgid "Demyr"
+msgstr ""
+
+#. [message]: speaker=Demyr
+#: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:210
+msgid ""
+"Those guards are the biggest orcs I have ever seen. Their skill with the "
+"sword is impressive and it is said that they would be ready to give their "
+"life to protect the shamans."
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:214
+msgid "It's exactly what they will do."
+msgstr ""
+
+#. [message]: speaker=ruler
+#: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:219
+msgid "They want to kill the shamans! Destroy them!"
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:269
+msgid "The shamans are dead! This is an important blow to the orcish power!"
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:6
+msgid "The Knights kept following their path along the river..."
+msgstr ""
+
+#. [scenario]: id=10_Meeting
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:25
+msgid "Meeting"
+msgstr ""
+
+#. [message]: speaker=knight2
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:111
+msgid ""
+"Sir, have you noticed that someone has been following us in the last few "
+"days?"
+msgstr ""
+
+#. [message]: speaker=Rheran
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:115
+msgid ""
+"Yes, it's that child from the village. I spotted him last night. He "
+"approached when we were sleeping. There's nothing to be afraid of."
+msgstr ""
+
+#. [message]: speaker=knight1
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:119
+msgid "Except for this forest... I don't like being surrounded by trees..."
+msgstr ""
+
+#. [message]: speaker=Ludoc
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:123
+msgid "Enough talk, men. Let's go!"
+msgstr ""
+
+#. [message]: speaker=Ludoc
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:133
+msgid "A house. Maybe there's somebody. Hey, in the house!"
+msgstr ""
+
+#. [message]: speaker=Ludoc
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:137
+msgid "The door is opening... ready with your weapons."
+msgstr ""
+
+#. [message]: speaker=Rheran
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:150
+msgid "It's only a woman."
+msgstr ""
+
+#. [message]: speaker=s7
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:157
+msgid "Hail, Knights. What brings you in these lands?"
+msgstr ""
+
+#. [message]: speaker=Rheran
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:161
+msgid ""
+"We just need to pass by. Can you give us news about villages in this area? "
+"And about orcs?"
+msgstr ""
+
+#. [message]: speaker=knight1
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:173
+msgid "It's an ambush! Ready to fight!"
+msgstr ""
+
+#. [message]: speaker=s1
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:177
+msgid "Don't even try! Archers are aiming at you from the forest."
+msgstr ""
+
+#. [message]: speaker=knight2
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:181
+msgid "The way behind us is still open..."
+msgstr ""
+
+#. [message]: speaker=s5
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:188
+msgid "I don't think so..."
+msgstr ""
+
+#. [message]: speaker=Ludoc
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:192
+msgid "These bandits have surrounded us..."
+msgstr ""
+
+#. [message]: speaker=s6
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:199
+msgid ""
+"We aren't bandits. We are fighters for freedom. Now you will tell us the "
+"reason of your presence here. Consider yourself prisoners."
+msgstr ""
+
+#. [message]: speaker=Aethen
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:215
+msgid ""
+"No! I know you, you are from my village. These knights have come here to "
+"free our village. They have been sent by the King."
+msgstr ""
+
+#. [message]: speaker=s6
+#: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:219
+msgid "In this case, Alena will be glad to meet you. Follow us please."
+msgstr ""
+
+#. [part]
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:6
+msgid ""
+"So they established a plan to recapture the village: the knights would "
+"attack from the South and try to draw orcs away from the village. At that "
+"point, Alena and her men would attack from the forest in the West and "
+"hopefully penetrate in the village."
+msgstr ""
+
+#. [scenario]: id=11_Freedom
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:18
+msgid "Freedom"
+msgstr ""
+
+#. [message]: speaker=Ludoc
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:124
+msgid ""
+"Everybody, get ready. Our task is to hold position and stay outside the "
+"village."
+msgstr ""
+
+#. [message]: speaker=chief
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:129
+msgid "Human knights attacking from the South!"
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:159
+msgid "We are here! For our village, for our families! Destroy them!"
+msgstr ""
+
+#. [message]: speaker=chief
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:202
+msgid "More humans from the forest! Let's call the goblin reserves!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:266
+msgid "Help me!"
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:270
+msgid "Brother! No!"
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:292
+msgid "The village is free!"
+msgstr ""
+
+#. [message]: speaker=Rheran
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:296
+msgid ""
+"It has been a great battle. We will return to the King and report him the "
+"last facts."
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:300
+msgid ""
+"Farewell, Knights. Thank you for your help. I think the orcs will think "
+"twice before attacking us again."
+msgstr ""
+
+#. [message]: speaker=Alena
+#: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:304
+msgid "And if they come, we will be ready to face them."
+msgstr ""
+
+#. [unit_type]: id=ASotN_Assassin, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Assassin.cfg:4
+msgid "Assassin"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Assassin, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Assassin.cfg:20
+msgid ""
+"The greatest of thieves are sometimes tasked to take far more than their "
+"victim's belongings. Masters of knife-fighting and uncannily light on their "
+"feet, these menacing figures will employ any means to dispatch their "
+"victims, be it poisoned knives thrown from afar, or a dagger planted in the "
+"back. Deadly at night, assassins are less able fighting under the sun."
+msgstr ""
+
+#. [attack]: type=blade
+#: A_Story_of_the_Northlands/units/ASotN-Assassin.cfg:41
+#: A_Story_of_the_Northlands/units/ASotN-Huntsman.cfg:45
+#: A_Story_of_the_Northlands/units/ASotN-Poacher.cfg:41
+#: A_Story_of_the_Northlands/units/ASotN-Robber.cfg:40
+#: A_Story_of_the_Northlands/units/ASotN-Rogue.cfg:40
+#: A_Story_of_the_Northlands/units/ASotN-Thief.cfg:191
+#: A_Story_of_the_Northlands/units/ASotN-Trapper.cfg:75
+#: A_Story_of_the_Northlands/units/ASotN-Woodsman.cfg:41
+#: A_Story_of_the_Northlands/units/Alena.cfg:40
+#: A_Story_of_the_Northlands/units/Alena.cfg:143
+#: A_Story_of_the_Northlands/units/Alena.cfg:180
+msgid "dagger"
+msgstr ""
+
+#. [attack]: type=blade
+#: A_Story_of_the_Northlands/units/ASotN-Assassin.cfg:53
+#: A_Story_of_the_Northlands/units/ASotN-Rogue.cfg:52
+#: A_Story_of_the_Northlands/units/Alena.cfg:52
+#: A_Story_of_the_Northlands/units/Alena.cfg:155
+#: A_Story_of_the_Northlands/units/Alena.cfg:192
+msgid "knife"
+msgstr ""
+
+#. [female]
+#: A_Story_of_the_Northlands/units/ASotN-Assassin.cfg:180
+msgid "female^Assassin"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Bandit, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Bandit.cfg:4
+msgid "Bandit"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Bandit, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Bandit.cfg:18
+msgid ""
+"Bandits are a motley collection of men, most of dubious background. They are "
+"the strong arm of any organized group of criminals, and though they may lack "
+"in finesse, or intelligence, they excel at their preferred task of pummeling "
+"victims into submission. Like any sort of outlaw, they're not comfortable "
+"fighting in broad daylight, being used to working at night."
+msgstr ""
+
+#. [attack]: type=impact
+#: A_Story_of_the_Northlands/units/ASotN-Bandit.cfg:38
+#: A_Story_of_the_Northlands/units/ASotN-Fugitive.cfg:41
+#: A_Story_of_the_Northlands/units/ASotN-Highwayman.cfg:40
+#: A_Story_of_the_Northlands/units/ASotN-Outlaw.cfg:39
+#: A_Story_of_the_Northlands/units/Horseman_Commander.cfg:42
+#: A_Story_of_the_Northlands/units/Mounted_General.cfg:44
+msgid "mace"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Footpad, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Footpad.cfg:4
+msgid "Footpad"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Footpad, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Footpad.cfg:21
+msgid ""
+"These petty criminals are often derisively called 'footpads' by their "
+"superiors, for they are tasked with any job that requires a great deal of "
+"running around, often being employed as couriers, or scouts. The endurance "
+"and agility they gain from this serves them well in combat, and despite "
+"their inferior weaponry they are quite good at harrying their enemies, "
+"especially under cover of darkness."
+msgstr ""
+
+#. [attack]: type=impact
+#: A_Story_of_the_Northlands/units/ASotN-Footpad.cfg:41
+#: A_Story_of_the_Northlands/units/ASotN-Ruffian.cfg:39
+#: A_Story_of_the_Northlands/units/ASotN-Thug.cfg:40
+#: A_Story_of_the_Northlands/units/ASotN-Vagrant.cfg:40
+msgid "club"
+msgstr ""
+
+#. [attack]: type=impact
+#: A_Story_of_the_Northlands/units/ASotN-Footpad.cfg:50
+#: A_Story_of_the_Northlands/units/ASotN-Fugitive.cfg:50
+#: A_Story_of_the_Northlands/units/ASotN-Outlaw.cfg:47
+#: A_Story_of_the_Northlands/units/ASotN-Vagrant.cfg:49
+#: A_Story_of_the_Northlands/units/Village_Woman.cfg:98
+msgid "sling"
+msgstr ""
+
+#. [female]
+#: A_Story_of_the_Northlands/units/ASotN-Footpad.cfg:179
+msgid "female^Footpad"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Fugitive, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Fugitive.cfg:20
+msgid ""
+"Veteran criminals become notorious for both their ruthlessness and ability "
+"to elude capture. They can be dangerous in their element, though no match "
+"for the sheer numbers that law-abiding soldiery can throw at them."
+msgstr ""
+
+#. [female]
+#: A_Story_of_the_Northlands/units/ASotN-Fugitive.cfg:122
+msgid "female^Fugitive"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Highwayman, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Highwayman.cfg:5
+msgid "Highwayman"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Highwayman, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Highwayman.cfg:20
+msgid ""
+"Highwaymen have gained an infamous reputation for underhanded deeds of "
+"violence. Ready to hire themselves out to whoever will pay the most, they "
+"lead bands of lesser rogues against their employer's enemies, often "
+"attacking on lonely roads or in the dead of night. Their experience with "
+"such encounters makes them deadly foes in hand to hand combat."
+msgstr ""
+
+#. [unit_type]: id=ASotN_Huntsman, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Huntsman.cfg:5
+msgid "Huntsman"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Huntsman, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Huntsman.cfg:21
+msgid ""
+"Hunting is a popular sport of noblemen, but it can also be a livelihood for "
+"commoners. Like any other craft, it has men of masterful skill in its "
+"practice. Huntsmen know all the tricks of their trade, and are skilled at "
+"navigating the wilderness, at tracking, and at the use of the bow. They are "
+"a fair shot at moving targets, and targets hiding under brush and cover; a "
+"skill wrought from years of practice at shooting game, and one which "
+"garrisoned bowmen often lack.\n"
+"\n"
+"Master hunters are employed by any group living in or passing through wild "
+"country, be they men of the law, or those working against it. Even nature "
+"itself can have deadly surprises, and any commander who fails to hire a such "
+"a guide can lose his men to nothing more than terrain. Good woodsmen can "
+"save lives, ease travel, provide food, and their skill with a bow is "
+"capitally useful in a fight."
+msgstr ""
+
+#. [attack]: type=pierce
+#: A_Story_of_the_Northlands/units/ASotN-Huntsman.cfg:54
+#: A_Story_of_the_Northlands/units/ASotN-Poacher.cfg:50
+#: A_Story_of_the_Northlands/units/ASotN-Ranger.cfg:54
+#: A_Story_of_the_Northlands/units/ASotN-Trapper.cfg:84
+#: A_Story_of_the_Northlands/units/ASotN-Woodsman.cfg:50
+#: A_Story_of_the_Northlands/units/Horse_Cavalry_Archer.cfg:39
+msgid "bow"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Outlaw, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Outlaw.cfg:4
+msgid "Outlaw"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Outlaw, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Outlaw.cfg:19
+msgid ""
+"After some years of service, former 'footpads' rise up in the ranks of their "
+"fellow outlaws. Having proven themselves in combat, they are given more "
+"dangerous tasks, and a greater share of the spoils. Though many opponents "
+"would mock their choice of weaponry, the outlaws are well aware of its "
+"deadly capacity, and also of the ready availability of ammunition. Outlaws "
+"are somewhat ill at ease fighting during the day, preferring the cover of "
+"nightfall."
+msgstr ""
+
+#. [female]
+#: A_Story_of_the_Northlands/units/ASotN-Outlaw.cfg:118
+msgid "female^Outlaw"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Poacher, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Poacher.cfg:4
+msgid "Poacher"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Poacher, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Poacher.cfg:20
+msgid ""
+"Though not trained as warriors, the skills possessed by a hunter (especially "
+"those of archery) are useful in battle. Any group of soldiers or bandits "
+"traveling through the wild will need a few poachers in their employ, not "
+"merely for hunting but for lending a hand in any serious fight."
+msgstr ""
+
+#. [unit_type]: id=ASotN_Ranger, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Ranger.cfg:5
+msgid "Ranger"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Ranger, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Ranger.cfg:21
+msgid ""
+"Rangers are wild men and wanderers, who have chosen to shun the company of "
+"their fellow men for myriad reasons. They have spent the better part of "
+"their lives in the thick of nature, and know many of its secrets. They are "
+"excellent pathfinders and explorers, and can find food and shelter where "
+"other men would find only sticks and stones.\n"
+"\n"
+"The presence of these men troubles the more authoritarian of rulers; they "
+"are an element that knights and landed armies cannot control. They are men "
+"of dubious motives, and are the first to scoff at any royal decree, if they "
+"even hear of it at all. Rangers can be hired, but they are just as likely to "
+"be in the employ of bandits, as they are to be in the king's service."
+msgstr ""
+
+#. [attack]: type=blade
+#: A_Story_of_the_Northlands/units/ASotN-Ranger.cfg:45
+#: A_Story_of_the_Northlands/units/Horse_Archer.cfg:51
+#: A_Story_of_the_Northlands/units/Horse_Archer_Knight.cfg:30
+msgid "sword"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Robber, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Robber.cfg:4
+msgid "Robber"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Robber, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Robber.cfg:20
+msgid "Robbers are thieves who operate in small villages."
+msgstr ""
+
+#. [unit_type]: id=ASotN_Rogue, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Rogue.cfg:4
+msgid "Rogue"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Rogue, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Rogue.cfg:19
+msgid ""
+"The ringleaders of any group of thieves earn their positions by skill. These "
+"rogues have spent many an unpleasant moment darting through crowds and "
+"dodging away from those who wish them ill, a set of skills which is very "
+"handy in a fight. Masters of knifework, they can also throw knives with "
+"reliable accuracy, and their long hours of prowling around at night leave "
+"them more comfortable fighting in the dark."
+msgstr ""
+
+#. [female]
+#: A_Story_of_the_Northlands/units/ASotN-Rogue.cfg:154
+msgid "female^Rogue"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Ruffian, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Ruffian.cfg:4
+msgid "Ruffian"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Ruffian, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Ruffian.cfg:19
+msgid ""
+"Some men without particular skills cannot or will not make an honest living. "
+"Those that attempt to make their way through life by the heavy end of a "
+"stick, are known as 'Ruffians'. With enough luck and experience, they "
+"sometimes manage to avoid the imprisonment or death that awaits most of "
+"their colleagues."
+msgstr ""
+
+#. [unit_type]: id=ASotN_Thief, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Thief.cfg:4
+msgid "Thief"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Thief, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Thief.cfg:20
+msgid ""
+"For as long as anyone can remember, the members of the various 'guilds' of "
+"rat-catchers that spring up in any larger city have had a curious practice "
+"of bleaching their hair with lime till it becomes a pale shade of blue. It "
+"is a bold thing to do, as their profession often delves into less-than-legal "
+"enterprises. Thieves have many skills, and by necessity are both light on "
+"their feet, and good with knives. They happily employ less-than-honorable "
+"tactics in combat, seeing little merit in a 'fair fight'."
+msgstr ""
+
+#. [female]
+#: A_Story_of_the_Northlands/units/ASotN-Thief.cfg:380
+msgid "female^Thief"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Thug, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Thug.cfg:4
+msgid "Thug"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Thug, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Thug.cfg:20
+msgid ""
+"Thugs come from a wide variety of sources; while a few are born into "
+"thuggery, many are former soldiers deemed unfit to serve in the army or "
+"peasants thrown off their lands. They become thugs as a means of sustenance. "
+"Regardless of their background, they all share a penchant for beating their "
+"victims with large clubs."
+msgstr ""
+
+#. [unit_type]: id=ASotN_Trapper, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Trapper.cfg:4
+msgid "Trapper"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Trapper, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Trapper.cfg:19
+msgid ""
+"Master woodsmen are useful allies to any army, and indispensable for any "
+"sizable group of people living in the wilderness. They can track both man "
+"and beast, notice things most others would overlook, and are often the only "
+"ones who can find food for the table, be it animal or vegetable."
+msgstr ""
+
+#. [unit_type]: id=ASotN_Vagrant, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Vagrant.cfg:4
+msgid "Vagrant"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Vagrant, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Vagrant.cfg:20
+msgid ""
+"Some men without particular skills cannot or will not make an honest living. "
+"Those that attempt to make their way through life with stick and sling, are "
+"known as 'Vagrants'. With enough luck and experience, they sometimes manage "
+"to avoid the imprisonment or death that awaits most of their colleagues."
+msgstr ""
+
+#. [unit_type]: id=ASotN_Woodsman, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Woodsman.cfg:4
+msgid "Woodsman"
+msgstr ""
+
+#. [unit_type]: id=ASotN_Woodsman, race=human
+#: A_Story_of_the_Northlands/units/ASotN-Woodsman.cfg:20
+msgid ""
+"Woodsmen are hunters, woodcutters, charcoal-burners, and others who eke out "
+"a living where the human world verges on the wilderness. Wits and woodcraft "
+"often support them where weapons will not."
+msgstr ""
+
+#. [unit_type]: id=Rebel Fighter, race=human
+#: A_Story_of_the_Northlands/units/Alena.cfg:4
+msgid "Rebel Fighter"
+msgstr ""
+
+#. [unit_type]: id=Rebel Fighter, race=human
+#: A_Story_of_the_Northlands/units/Alena.cfg:19
+msgid ""
+"Beautiful and letal, Alena fights with a dagger and poisoned throwing "
+"knives. She can move fast in woodlands and she is able to sneak past enemies."
+msgstr ""
+
+#. [unit_type]: id=Rebel Leader
+#: A_Story_of_the_Northlands/units/Alena.cfg:137
+msgid "Rebel Leader"
+msgstr ""
+
+#. [unit_type]: id=Rebel Commander
+#: A_Story_of_the_Northlands/units/Alena.cfg:173
+msgid "Rebel Commander"
+msgstr ""
+
+#. [unit_type]: id=Brute, race=human
+#: A_Story_of_the_Northlands/units/Brute.cfg:4
+msgid "Brute"
+msgstr ""
+
+#. [unit_type]: id=Brute, race=human
+#: A_Story_of_the_Northlands/units/Brute.cfg:20
+msgid "Brutes are bloodthirsty."
+msgstr ""
+
+#. [attack]: type=impact
+#: A_Story_of_the_Northlands/units/Brute.cfg:38
+msgid "fist"
+msgstr ""
+
+#. [unit_type]: id=Caravan, race=mechanical
+#: A_Story_of_the_Northlands/units/Caravan.cfg:4
+msgid "Caravan"
+msgstr ""
+
+#. [unit_type]: id=Caravan, race=mechanical
+#: A_Story_of_the_Northlands/units/Caravan.cfg:17
+msgid ""
+"Caravans are used to carry gold or supplies long distances. Because of the "
+"immense weight of the cargo this caravan carries, it moves very slowly."
+msgstr ""
+
+#. [unit_type]: id=Farmhand, race=human
+#: A_Story_of_the_Northlands/units/Farmhand.cfg:4
+msgid "Farmhand"
+msgstr ""
+
+#. [unit_type]: id=Farmhand, race=human
+#: A_Story_of_the_Northlands/units/Farmhand.cfg:20
+msgid ""
+"Farmhands, and the peasants that they work for, are the backbone of the "
+"rural economy. While not warlike by nature, they will stubbornly defend "
+"their homes."
+msgstr ""
+
+#. [attack]: type=pierce
+#: A_Story_of_the_Northlands/units/Farmhand.cfg:37
+msgid "pitchfork"
+msgstr ""
+
+#. [unit_type]: id=Archer Rider, race=human
+#: A_Story_of_the_Northlands/units/Horse_Archer.cfg:4
+msgid "Archer Rider"
+msgstr ""
+
+#. [unit_type]: id=Archer Rider, race=human
+#: A_Story_of_the_Northlands/units/Horse_Archer.cfg:21
+msgid ""
+"Archer riders are masters in the use of the bow from a horse. Their heavy "
+"armor doesn't limit their speed."
+msgstr ""
+
+#. [attack]: type=pierce
+#: A_Story_of_the_Northlands/units/Horse_Archer.cfg:60
+#: A_Story_of_the_Northlands/units/Horse_Archer_Knight.cfg:40
+msgid "longbow"
+msgstr ""
+
+#. [unit_type]: id=Archer Knight, race=human
+#: A_Story_of_the_Northlands/units/Horse_Archer_Knight.cfg:4
+msgid "Archer Knight"
+msgstr ""
+
+#. [unit_type]: id=Archer Knight, race=human
+#: A_Story_of_the_Northlands/units/Horse_Archer_Knight.cfg:19
+msgid ""
+"In time, some cavalry archers are given more armor but their speed remains "
+"the same."
+msgstr ""
+
+#. [unit_type]: id=Royal Knight, race=human
+#: A_Story_of_the_Northlands/units/Horse_Black_Knight.cfg:4
+msgid "Royal Knight"
+msgstr ""
+
+#. [unit_type]: id=Royal Knight, race=human
+#: A_Story_of_the_Northlands/units/Horse_Black_Knight.cfg:21
+msgid ""
+"Veteran horsemen become Royal Knights, after a life at the service of their "
+"kings."
+msgstr ""
+
+#. [attack]: type=impact
+#: A_Story_of_the_Northlands/units/Horse_Black_Knight.cfg:38
+msgid "flail"
+msgstr ""
+
+#. [attack]: type=pierce
+#: A_Story_of_the_Northlands/units/Horse_Black_Knight.cfg:47
+#: A_Story_of_the_Northlands/units/Horseman_Commander.cfg:31
+#: A_Story_of_the_Northlands/units/Mounted_General.cfg:33
+msgid "lance"
+msgstr ""
+
+#. [unit_type]: id=Cavalry Archer, race=human
+#: A_Story_of_the_Northlands/units/Horse_Cavalry_Archer.cfg:4
+msgid "Cavalry Archer"
+msgstr ""
+
+#. [unit_type]: id=Cavalry Archer, race=human
+#: A_Story_of_the_Northlands/units/Horse_Cavalry_Archer.cfg:19
+msgid ""
+"Some horse clans train bowman to ride and shoot. The technique is very "
+"effective as these riders have speed and a good aim at targets but the speed "
+"has cost them to have light armaments."
+msgstr ""
+
+#. [attack]: type=blade
+#: A_Story_of_the_Northlands/units/Horse_Cavalry_Archer.cfg:29
+msgid "short sword"
+msgstr ""
+
+#. [unit_type]: id=Horseman Commander, race=human
+#: A_Story_of_the_Northlands/units/Horseman_Commander.cfg:4
+msgid "Horseman Commander"
+msgstr ""
+
+#. [unit_type]: id=Horseman Commander, race=human
+#: A_Story_of_the_Northlands/units/Horseman_Commander.cfg:27
+msgid ""
+"Leaders of the border guards, mounted commanders are trained not only to "
+"ride and fight, but to lead. They command the garrisons that keep peace in "
+"the provinces of Wesnoth."
+msgstr ""
+
+#. [unit_type]: id=Junior Commander, race=human
+#: A_Story_of_the_Northlands/units/Junior_Commander.cfg:4
+msgid "Junior Commander"
+msgstr ""
+
+#. [unit_type]: id=Junior Commander, race=human
+#: A_Story_of_the_Northlands/units/Junior_Commander.cfg:27
+msgid ""
+"Scarcely 17 or 18 years old, the sons of knights and lords were given mounts "
+"and swords and told to become leaders of men. Those whose mettle was strong "
+"enough for the task became the commanders of the armies of Wesnoth."
+msgstr ""
+
+#. [attack]: type=pierce
+#: A_Story_of_the_Northlands/units/Junior_Commander.cfg:31
+#: A_Story_of_the_Northlands/units/Rancher.cfg:36
+msgid "spear"
+msgstr ""
+
+#. [unit_type]: id=Mounted General, race=human
+#: A_Story_of_the_Northlands/units/Mounted_General.cfg:4
+msgid "Mounted General"
+msgstr ""
+
+#. [unit_type]: id=Mounted General, race=human
+#: A_Story_of_the_Northlands/units/Mounted_General.cfg:29
+msgid ""
+"Being the most able leaders of the border guards, Mounted Generals are "
+"trained not only to ride and fight, but to lead. They command the garrisons "
+"that keep peace in the provinces of Wesnoth."
+msgstr ""
+
+#. [unit_type]: id=Orcish Champion, race=orc
+#: A_Story_of_the_Northlands/units/Orcish_Champion.cfg:4
+msgid "Orcish Champion"
+msgstr ""
+
+#. [unit_type]: id=Orcish Champion, race=orc
+#: A_Story_of_the_Northlands/units/Orcish_Champion.cfg:19
+msgid ""
+"Champions are the chosen fighters of their clan, inspiring both awe and "
+"dread in its fellow orcs."
+msgstr ""
+
+#. [attack]: type=blade
+#: A_Story_of_the_Northlands/units/Orcish_Champion.cfg:37
+msgid "greatsword"
+msgstr ""
+
+#. [unit_type]: id=Orcish Shaman, race=orc
+#: A_Story_of_the_Northlands/units/Orcish_Shaman.cfg:4
+msgid "Orcish Shaman"
+msgstr ""
+
+#. [unit_type]: id=Orcish Shaman, race=orc
+#: A_Story_of_the_Northlands/units/Orcish_Shaman.cfg:19
+msgid ""
+"Orcish Shamans are the guardians of orcish magic. Respected among orcish "
+"tribes, they form the Orcish Council, which makes important decisions for "
+"the whole Orcish community and arbitrates the many conflicts that arise "
+"between tribes of this argumentative race. Although physically weak (for "
+"Orcs), Orcish Shamans are good spell casters and can curse their enemies, "
+"draining their life.:"
+msgstr ""
+
+#. [attack]: type=impact
+#: A_Story_of_the_Northlands/units/Orcish_Shaman.cfg:25
+#: A_Story_of_the_Northlands/units/Orcish_Warlock.cfg:25
+#: A_Story_of_the_Northlands/units/Orcish_Witch_Doctor.cfg:25
+#: A_Story_of_the_Northlands/units/Village_Woman.cfg:89
+msgid "staff"
+msgstr ""
+
+#. [attack]: type=cold
+#: A_Story_of_the_Northlands/units/Orcish_Shaman.cfg:34
+#: A_Story_of_the_Northlands/units/Orcish_Warlock.cfg:34
+#: A_Story_of_the_Northlands/units/Orcish_Witch_Doctor.cfg:34
+msgid "curse"
+msgstr ""
+
+#. [unit_type]: id=Orcish Warlock, race=orc
+#: A_Story_of_the_Northlands/units/Orcish_Warlock.cfg:4
+msgid "Orcish Warlock"
+msgstr ""
+
+#. [unit_type]: id=Orcish Warlock, race=orc
+#: A_Story_of_the_Northlands/units/Orcish_Warlock.cfg:20
+msgid ""
+"Orcish Shamans are the guardians of orcish magic. Respected among orcish "
+"tribes, they form the Orcish Council, which makes important decisions for "
+"the whole Orcish community and arbitrates the many conflicts that arise "
+"between tribes of this argumentative race. Although physically weak (for "
+"Orcs), Orcish Shamans are good spell casters and can curse their enemies."
+msgstr ""
+
+#. [unit_type]: id=Orcish Witch Doctor, race=orc
+#: A_Story_of_the_Northlands/units/Orcish_Witch_Doctor.cfg:4
+msgid "Orcish Witch Doctor"
+msgstr ""
+
+#. [unit_type]: id=Orcish Witch Doctor, race=orc
+#: A_Story_of_the_Northlands/units/Orcish_Witch_Doctor.cfg:20
+msgid ""
+"Orcish Shamans are the guardians of orcish magic. Respected among orcish "
+"tribes, they form the Orcish Council, which makes important decisions for "
+"the whole Orcish community and arbitrates the many conflicts that arise "
+"between tribes of this argumentative race. Although physically weak (for "
+"Orcs), Orcish Shamans are good spell casters and can curse their enemies, "
+"draining their life."
+msgstr ""
+
+#. [unit_type]: id=Rancher, race=human
+#: A_Story_of_the_Northlands/units/Rancher.cfg:4
+msgid "Rancher"
+msgstr ""
+
+#. [unit_type]: id=Rancher, race=human
+#: A_Story_of_the_Northlands/units/Rancher.cfg:20
+msgid ""
+"In the wilder, less tamed regions of Wesnoth, the horse clans provide a "
+"steady supply of mounts, so even common farmers can usually afford a horse."
+msgstr ""
+
+#. [unit_type]: id=Village Woman, race=human
+#: A_Story_of_the_Northlands/units/Village_Woman.cfg:4
+msgid "female^Village Woman"
+msgstr ""
+
+#. [unit_type]: id=Village Woman, race=human
+#: A_Story_of_the_Northlands/units/Village_Woman.cfg:20
+msgid "Just a village woman."
+msgstr ""
