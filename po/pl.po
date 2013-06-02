@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: A_Story_of_the_Northlands-1.10\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-28 16:36-0400\n"
-"PO-Revision-Date: 2013-03-28 16:36-0400\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2013-06-02 14:18+0100\n"
+"Last-Translator: Paweł Jackowski <http://paweljackowski.com/>\n"
 "Language-Team: none\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -12,16 +12,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #. [campaign]: id=A_Story_of_the_Northlands
 #: A_Story_of_the_Northlands/_main.cfg:11
 msgid "A Story of the Northlands"
-msgstr ""
+msgstr "Historia Północnych Ziem"
 
 #. [campaign]: id=A_Story_of_the_Northlands
 #: A_Story_of_the_Northlands/_main.cfg:12
 msgid "ASotN"
-msgstr ""
+msgstr "HPZ"
 
 #. [campaign]: id=A_Story_of_the_Northlands
 #: A_Story_of_the_Northlands/_main.cfg:16
@@ -29,6 +30,8 @@ msgid ""
 "&units/human-loyalists/cavalryman.png=Easy;*&units/human-loyalists/dragoon."
 "png=Medium;&units/human-loyalists/cavalier.png=Difficult"
 msgstr ""
+"&units/human-loyalists/cavalryman.png=łatwy;*&units/human-loyalists/dragoon."
+"png=Średni;&units/human-loyalists/cavalier.png=Trudny"
 
 #. [campaign]: id=A_Story_of_the_Northlands
 #: A_Story_of_the_Northlands/_main.cfg:20
@@ -36,21 +39,24 @@ msgid ""
 "A story of life and death in a remote village of the Northlands.\n"
 "11 scenarios, all playable, intermediate level."
 msgstr ""
+"Historia życia i śmierci w dalekiej wiosce gdzieś na Północnych Ziemiach.\n"
+"11 scenariuszy, wszystkie grywalne, poziom średniozaawansowany."
 
 #. [about]
 #: A_Story_of_the_Northlands/_main.cfg:24
 msgid "Images"
-msgstr ""
+msgstr "Obrazy"
 
 #. [entry]
 #: A_Story_of_the_Northlands/_main.cfg:26
 msgid "Some mounted units come from Great Legend Era and Fate of a Princess"
 msgstr ""
+"Niektóre konne jednostki pochodzą z Great Legand Era and Fate of Princess"
 
 #. [entry]
 #: A_Story_of_the_Northlands/_main.cfg:29
 msgid "Some orcish and human units come from RPG Creation Kit"
-msgstr ""
+msgstr "Niektóre jednostki orków i ludzi pochodzą z RPG Creation kit"
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:6
@@ -59,6 +65,9 @@ msgid ""
 "established long ago on the Southern bank of river Longlier -- Arkan-thoria "
 "for the Elves."
 msgstr ""
+"Jest to opowieść o tym, co zdarzyło się w odległej koloni Królestwa "
+"ustanowionej dawno temu na południowym brzegu rzeki Longlier, nazywanej "
+"Arkanthoria w języku Elfów."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:9
@@ -67,6 +76,9 @@ msgid ""
 "the events of that winter deserve to be told. It's a story of life, death, "
 "slavery, revenge, freedom."
 msgstr ""
+"Wieś była położona tak daleko, że zapomniano nawet jej nazwy, ale zdarzenia, "
+"które się w niej wydarzyły tamtej zimy, zasługują na opowieść. Opowieść o "
+"życiu, śmierci, niewoli, zemście i wolności."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:12
@@ -76,29 +88,33 @@ msgid ""
 "hunt. The village was poor but this didn't stop the orcs who, seen a "
 "peaceful village just across a bridge, rushed to raid it."
 msgstr ""
+"Wszystko zaczęło się wtedy, gdy mieszkańcy wybudowali most przez rzeka "
+"Longlier, aby zdobyć trochę więcej miejsca na uprawy i lasu, w którym "
+"mogliby polować na zwierzynę. Choć wieś była biedna, nie powstrzymało to "
+"Orków przed najazdem."
 
 #. [message]: speaker=Caror
 #. [message]: speaker=unit
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:83
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:549
 msgid "At least I die as a free man..."
-msgstr ""
+msgstr "Przynajmniej umrę jako wolny człowiek..."
 
 #. [scenario]: id=01_Prologue
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:89
 msgid "Prologue"
-msgstr ""
+msgstr "Prolog"
 
 #. [objective]: condition=win
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:104
 msgid "Survive"
-msgstr ""
+msgstr "Przetrwaj"
 
 #. [objective]: condition=lose
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:108
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:410
 msgid "Death of Caror"
-msgstr ""
+msgstr "Śmierć Caroroa"
 
 #. [objective]: condition=lose
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:112
@@ -113,27 +129,27 @@ msgstr ""
 #: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:54
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:51
 msgid "Turns run out"
-msgstr ""
+msgstr "Skończy się limit tur"
 
 #. [side]: type=Bandit, id=Caror
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:121
 msgid "Caror"
-msgstr ""
+msgstr "Caror"
 
 #. [side]: type=Bandit, id=Caror
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:129
 msgid "Villagers"
-msgstr ""
+msgstr "Mieszkańcy wsi"
 
 #. [unit]: id=Doc, type=Brute
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:132
 msgid "Doc"
-msgstr ""
+msgstr "Doc"
 
 #. [side]: type=Goblin Pillager, id=Badush
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:174
 msgid "Badush"
-msgstr ""
+msgstr "Badush"
 
 #. [side]
 #. [side]: type=Direwolf Rider
@@ -156,23 +172,23 @@ msgstr ""
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:87
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:100
 msgid "Orcs"
-msgstr ""
+msgstr "Orkowie"
 
 #. [label]
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:196
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:190
 msgid "Longlier"
-msgstr ""
+msgstr "Longlier"
 
 #. [message]: speaker=Doc
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:204
 msgid "Chief, orcs are in sight!"
-msgstr ""
+msgstr "Szefie, orkowie w zasięgu wzroku!"
 
 #. [message]: speaker=Caror
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:209
 msgid "Oh no! Maybe building that bridge hasn't been a good idea."
-msgstr ""
+msgstr "Oh nie! Chyba pomysł wybudowania mostu nie był dobry."
 
 #. [message]: speaker=Caror
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:214
@@ -180,6 +196,8 @@ msgid ""
 "Everybody! To arms! We need to protect our home. If they manage to pass the "
 "bridge we are lost."
 msgstr ""
+"Słuchajcie wszyscy! Do broni! Musimy chronić nasz dom. Jeśli uda im się "
+"przekroczyć most będziemy zgubieni."
 
 #. [message]: speaker=Badush
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:219
@@ -187,41 +205,43 @@ msgid ""
 "You'd better surrender and work for us as slaves. If you fight you'll "
 "receive no mercy."
 msgstr ""
+"Poddaj się i pracuj dla nas jako niewolnik. Jeśli będziesz walczył, nie "
+"zaznasz litości."
 
 #. [message]: speaker=Caror
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:224
 msgid "Never! Better to die for freedom than to live in slavery!"
-msgstr ""
+msgstr "Nigdy! Wole umrzeć jako wolny, niż żyć jako niewolnik."
 
 #. [message]: speaker=Caror
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:250
 msgid "A boat. What's happening?"
-msgstr ""
+msgstr "Łódź. Co się dzieje?"
 
 #. [unit]: type=Orcish Slayer, id=Vuk
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:257
 msgid "Vuk"
-msgstr ""
+msgstr "Vuk"
 
 #. [message]: speaker=Vuk
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:270
 msgid "It seems I have arrived in time!"
-msgstr ""
+msgstr "Wydaję się, że przybyłem na czas!"
 
 #. [unit]: type=Orcish Assassin, id=Grak
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:287
 msgid "Grak"
-msgstr ""
+msgstr "Grak"
 
 #. [message]: speaker=Vuk
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:294
 msgid "Grak, try to move around the village and kill their leader."
-msgstr ""
+msgstr "Grak, spróbuj przejść naokoło wioski i zabić ich przywódcę."
 
 #. [message]: speaker=Caror
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:309
 msgid "Oh no! We can't face both. Alena! Aethen!"
-msgstr ""
+msgstr "O nie! Obu naraz nie pokonamy. Alena! Aethen!"
 
 #. [message]: speaker=narrator
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:313
@@ -229,13 +249,14 @@ msgid ""
 "Following their father's call, Alena, a young woman, and Aethen, little more "
 "than a child, approached Caror."
 msgstr ""
+"Alena młoda kobieta i Aethen ledwo nastolatek wyszli na zawołanie ojca."
 
 #. [side]: type=Rebel Fighter, id=Alena
 #. [unit]: type=Thief, id=Alena
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:330
 #: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:61
 msgid "Alena"
-msgstr ""
+msgstr "Alena"
 
 #. [side]: type=Rancher, id=Aethen
 #. [unit]: type=Rancher, id=Aethen
@@ -245,12 +266,12 @@ msgstr ""
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:194
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:206
 msgid "Aethen"
-msgstr ""
+msgstr "Aethen"
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:368
 msgid "Yes, father. We are here."
-msgstr ""
+msgstr "Tak ojcze. Jesteśmy tutaj"
 
 #. [message]: speaker=Caror
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:372
@@ -260,11 +281,14 @@ msgid ""
 "arrive to river Listra. Tell them to send soldiers. Many soldiers. Take the "
 "southern path."
 msgstr ""
+"Aethen, musisz wezwać posiłki. Weź mojego konia oraz włócznie i podążaj "
+"rzeką, aż znajdziesz fort. Powinien być zanim przekroczysz rzekę Listrę. "
+"Powiedz im, żeby wysłali żołnierzy. Wielu żołnierzy. Jedź południową ścieżką."
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:383
 msgid "Even if he finds soldiers, they won't arrive in time!"
-msgstr ""
+msgstr "Nawet jeśli znajdzie żołnierzy, nie zdążą tu przybyć na czas!"
 
 #. [message]: speaker=Caror
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:387
@@ -272,6 +296,8 @@ msgid ""
 "I know, but he is a fast rider. He is the only one among us who rides fast "
 "enough. And at least this will keep him away from the orcs."
 msgstr ""
+"Wiem, ale jest bardzo szybkim jeźdźcem. Tylko on z nas wszystkich jest "
+"wystarczająco szybki. Przynajmniej będzie z dala od orków."
 
 #. [message]: speaker=Caror
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:391
@@ -279,11 +305,13 @@ msgid ""
 "I want you to leave the village now. We can't resist them, they are too "
 "many. Go away!"
 msgstr ""
+"Chcę, żebyś opuścił wioskę. Nie powstrzymamy ich, jest ich zbyt wielu. "
+"Uciekaj!"
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:395
 msgid "No! I can fight. I want to stay."
-msgstr ""
+msgstr "Nie! Mogę walczyć. Chcę zostać."
 
 #. [message]: speaker=Caror
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:399
@@ -291,11 +319,13 @@ msgid ""
 "NO. Go away, hide in the forest, they won't find you. Stay hidden until "
 "soldiers arrive."
 msgstr ""
+"NIE! Uciekaj, schowaj się w lesie, tam cię nie znajdą. Czekaj tam, dopóki "
+"nie przybędą żołnierze."
 
 #. [objective]: condition=win
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:406
 msgid "Move Alena into the forest and Aethen to the southern path"
-msgstr ""
+msgstr "Przenieś Alenę do lasu, a Aethena na południową ścieżkę."
 
 #. [objective]: condition=lose
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:414
@@ -307,61 +337,61 @@ msgstr ""
 #: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:50
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:47
 msgid "Death of Alena"
-msgstr ""
+msgstr "Śmierć Aleny"
 
 #. [objective]: condition=lose
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:418
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:57
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:43
 msgid "Death of Aethen"
-msgstr ""
+msgstr "Śmierć Aethena"
 
 #. [message]: speaker=Caror
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:442
 msgid "Ride as fast as you can!"
-msgstr ""
+msgstr "Jedź tak szybko jak to możliwe!"
 
 #. [message]: speaker=Aethen
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:461
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:518
 msgid "Father! Nooo..."
-msgstr ""
+msgstr "Ojcze! Nieee..."
 
 #. [message]: speaker=Caror
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:494
 msgid "Go! Stay hidden!"
-msgstr ""
+msgstr "Biegnij! Ukryj się gdzieś!"
 
 #. [message]: speaker=narrator
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:498
 msgid ""
 "Before disappearing, Alena stole some poison from the corpse of an "
 "assassin..."
-msgstr ""
+msgstr "Zanim Alena ukryła się, zabrała trochę trucizny ze zwłok zabójcy..."
 
 #. [message]: speaker=unit
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:563
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:581
 msgid "No! Father help me!"
-msgstr ""
+msgstr "Nie! Ojcze pomóż mi!"
 
 #. [message]: speaker=Caror
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:567
 msgid "Alena! No!"
-msgstr ""
+msgstr "Alena! Nie!"
 
 #. [message]: speaker=Caror
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:585
 msgid "Aethen! No!"
-msgstr ""
+msgstr "Aethen! No!"
 
 #. [message]: speaker=Caror
 #. [message]: speaker=Ludoc
 #: A_Story_of_the_Northlands/scenarios/01_Prologue.cfg:596
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:281
 msgid "Oh, no! More orcs are coming."
-msgstr ""
+msgstr "O nie! Zbliża się więcej orków."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:6
@@ -369,6 +399,8 @@ msgid ""
 "After leaving the village, Aethen rode for two days and two nights along the "
 "river, without meeting any single living being."
 msgstr ""
+"Po opuszczeniu wioski, Aethen jechał przez 2 dni i 2 noce wzdłuż rzeki, nie "
+"spotykając żadnej żywej istoty. "
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:9
@@ -376,6 +408,8 @@ msgid ""
 "On the third day, he saw in the distance the shape of high walls: he had "
 "reached the fort."
 msgstr ""
+"Trzeciego dnia zobaczył w oddali majaczące blanki murów. Był to fort, o "
+"którym mówił jego ojciec."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:12
@@ -386,6 +420,11 @@ msgid ""
 "horse again and, riding faster than ever, kept following the river, South "
 "and East."
 msgstr ""
+"Coś jednak było nie tak. Po drodze, kiedy jechał, widział spalone i "
+"opuszczone wsie. Kiedy dotarł do samego fortu, był zrozpaczony, ponieważ "
+"stał pusty. Kilka chwil później, po przeszukaniu dziedzińca, ze łzami w "
+"oczach dosiadł konia i trzymając się rzeki, pojechał tak szybko, jak nigdy "
+"dotąd na południe i wchód."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:15
@@ -394,28 +433,31 @@ msgid ""
 "but one morning he found himself surrounded by a thick fog: river Listra was "
 "near. He was tired, but he knew that men were near."
 msgstr ""
+"Wkrótce stracił poczucie czasu i nie mógł powiedzieć ile dni podróżował. "
+"Pewnego dnia otoczyła go gęsta mgła, rzeka Listra była niedaleko. Był "
+"zmęczony, ale czuł, że w pobliżu są ludzie."
 
 #. [scenario]: id=02_Escape
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:37
 msgid "Escape"
-msgstr ""
+msgstr "Ucieczka"
 
 #. [objective]: condition=win
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:53
 msgid "Reach the human fort"
-msgstr ""
+msgstr "Dojedź do ludzkiego fortu"
 
 #. [objective]: condition=lose
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:61
 msgid "Death of human leader"
-msgstr ""
+msgstr "Śmierć ludzkiego dowódcy"
 
 #. [side]: type=Rancher, id=Aethen
 #. [unit_type]: id=ASotN_Fugitive, race=human
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:81
 #: A_Story_of_the_Northlands/units/ASotN-Fugitive.cfg:4
 msgid "Fugitive"
-msgstr ""
+msgstr "Zbieg"
 
 #. [side]: type=Naga Myrmidon
 #. [side]: type=Naga Myrmidon, id=Amailis
@@ -424,29 +466,29 @@ msgstr ""
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:128
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:88
 msgid "Nagas"
-msgstr ""
+msgstr "Nagi"
 
 #. [side]: type=Lieutenant, id=Caredd
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:121
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:109
 msgid "Caredd"
-msgstr ""
+msgstr "Caredd"
 
 #. [side]: type=Lieutenant, id=Caredd
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:128
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:116
 msgid "Wesnothian Army"
-msgstr ""
+msgstr "Armia Wesnoth"
 
 #. [side]
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:153
 msgid "Monsters"
-msgstr ""
+msgstr "Potwory"
 
 #. [label]
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:196
 msgid "Listra"
-msgstr ""
+msgstr "Listra"
 
 #. [message]: speaker=Aethen
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:204
@@ -454,31 +496,33 @@ msgid ""
 "There's a human fort down there. I must reach it. But I must be careful... "
 "who knows what inhabits the river and the hills..."
 msgstr ""
+"Na dole leży ludzki fort. Muszę się tam dostać, ale muszę być też "
+"ostrożny... kto wie, co zamieszkuję rzekę i wzgórza?"
 
 #. [message]: speaker=Caredd
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:255
 msgid "Who are you and what are you doing here? These are dangerous lands."
-msgstr ""
+msgstr "Kim jesteś i co tu robisz? To jest niebezpieczna okolica."
 
 #. [message]: speaker=Aethen
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:259
 msgid "The village... orcs... my father..."
-msgstr ""
+msgstr "Wioska... orki... mój ojciec..."
 
 #. [message]: speaker=Caredd
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:263
 msgid "Calm down and take some rest. We'll speak later."
-msgstr ""
+msgstr "Uspokój się i odpocznij. Porozmawiamy później."
 
 #. [message]: speaker=Aethen
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:267
 msgid "No! There's no time. I'll tell you now."
-msgstr ""
+msgstr "Nie! Nie ma czasu! Powiem ci teraz."
 
 #. [message]: speaker=narrator
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:271
 msgid "After the explanations..."
-msgstr ""
+msgstr "Po wyjaśnieniach..."
 
 #. [message]: speaker=Caredd
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:276
@@ -488,11 +532,15 @@ msgid ""
 "myself. Goblin riders have been spotted and they'll be here in the next few "
 "days, and these water creatures are always troubling us."
 msgstr ""
+"Rozumiem sytuację. Przykro mi to mówić, ale nie mam teraz ludzi na zbyciu. "
+"Jak widzisz, jesteśmy tutaj nieustannie atakowani, a ja sam potrzebuje "
+"wsparcia. Dostrzegliśmy goblińskich jeźdźców i będą tu za parę dni, do tego "
+"nagi, jak zwykle, nie dają nam spokoju."
 
 #. [message]: speaker=Aethen
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:280
 msgid "So what can we do?"
-msgstr ""
+msgstr "Więc co możemy zrobić?"
 
 #. [message]: speaker=Caredd
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:284
@@ -501,11 +549,13 @@ msgid ""
 "messages to the King and ask for help. Hopefully they will send some "
 "reinforcements."
 msgstr ""
+"Za kilka dni wypłynie stąd statek, który płynie do Weldyn. Wyślemy wiadomość "
+"do Króla, prosząc go o pomoc. Mam nadzieje, że przyśle jakieś wsparcie."
 
 #. [message]: speaker=Aethen
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:288
 msgid "But they will take weeks or months to arrive!"
-msgstr ""
+msgstr "Za nim wróci minie kilka tygodni albo miesięcy!"
 
 #. [message]: speaker=Caredd
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:292
@@ -513,22 +563,24 @@ msgid ""
 "I know, but it's the best thing we can do. Now go and take some rest. You "
 "are safe here."
 msgstr ""
+"Wiem, ale to jest najlepsza rzecz, jaką możemy zrobić. Teraz idź i odpocznij "
+"trochę. Jesteś tu bezpieczny."
 
 #. [message]: speaker=unit
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:307
 msgid "Oh no! Nobody will ever know about our village!"
-msgstr ""
+msgstr "Oh nie! Już nikt nie dowie się o mojej wiosce!"
 
 #. [message]: speaker=unit
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:321
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:286
 msgid "The fort is lost!"
-msgstr ""
+msgstr "Fort jest stracony!"
 
 #. [message]: speaker=Aethen
 #: A_Story_of_the_Northlands/scenarios/02_Escape.cfg:332
 msgid "Oh, no! I fear I got lost with this fog."
-msgstr ""
+msgstr "O nie! Obawiam się, że zgubiłem się w tej mgle."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:6
@@ -536,6 +588,8 @@ msgid ""
 "In the meantime, some other peasants escaped from the village into the "
 "forest, but most of the population was forced to work as slaves of the orcs."
 msgstr ""
+"W międzyczasie kilku chłopom udało się uciec z jarzma orków. Niestety "
+"większość musiała zostać i pracować jako niewolnicy."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:9
@@ -543,6 +597,8 @@ msgid ""
 "The orcs felt too strong to worry about few fugitive peasants. They were "
 "right."
 msgstr ""
+"Orkowie czuli się zbyt silni, żeby martwić się ucieczką paru chłopów. Mieli "
+"rację. "
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:12
@@ -552,6 +608,10 @@ msgid ""
 "unnoticed in woods. Alena herself worked hard to improve her skills and "
 "learned to use the poison."
 msgstr ""
+"Wszyscy chłopi, którzy zdołali uciec, zebrali się pod dowództwem Aleny. "
+"Szkolili się w tajemnicy. Dowiedzieli się, jak walczyć i poruszać się szybko "
+"i niepostrzeżenie po lesie. Sama Alena ciężko pracowała, by poprawić swoje "
+"umiejętności i nauczyć się z korzystania trucizny."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:15
@@ -559,11 +619,13 @@ msgid ""
 "When a group of goblins was spotted in the vicinity of the river, Alena "
 "decided it was time to strike back."
 msgstr ""
+"Kiedy grupa goblinów została zauważona w pobliżu rzeki, Alena zdecydowała, "
+"że czas na odwet."
 
 #. [scenario]: id=03_Resistance
 #: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:27
 msgid "Resistance"
-msgstr ""
+msgstr "Opór"
 
 #. [objective]: condition=win
 #: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:43
@@ -571,24 +633,24 @@ msgstr ""
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:45
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:31
 msgid "Defeat all enemy leaders"
-msgstr ""
+msgstr "Pokonaj wszystkich wrogich dowódców"
 
 #. [side]: type=Rebel Fighter, id=Alena
 #: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:67
 msgid "Rebels"
-msgstr ""
+msgstr "Buntownicy"
 
 #. [unit]: type=ASotN_Robber, id=Albert
 #: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:77
 msgid "Albert"
-msgstr ""
+msgstr "Albert"
 
 #. [side]: type=Goblin Impaler
 #. [side]: type=Goblin Rouser
 #: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:96
 #: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:107
 msgid "Goblins"
-msgstr ""
+msgstr "Gobliny"
 
 #. [message]: speaker=Albert
 #: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:115
@@ -596,6 +658,8 @@ msgid ""
 "We aren't strong enough to directly attack our village, but those goblins "
 "shouldn't be too difficult to defeat if we attack them from the forest."
 msgstr ""
+"Nie jesteśmy na tyle silni, żeby odbić naszą wioskę bezpośrednio, ale jeśli "
+"zaatakujemy te gobliny z lasu, nie powinny sprawić większych kłopotów."
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:119
@@ -603,16 +667,18 @@ msgid ""
 "It's time the orcs learn what is fear. Show no mercy for them, remember what "
 "they have done to our families."
 msgstr ""
+"Niech teraz orkowie poczują co to strach. Nie okazujcie litości, "
+"pamiętajcie, co zrobili naszym rodziną."
 
 #. [message]: speaker=Albert
 #: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:123
 msgid "We can close them between us and the river. They'll have no way out."
-msgstr ""
+msgstr "Możemy ich zamknąć pomiędzy nami a rzeką. Nie będą mogli uciec."
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:127
 msgid "Leave nobody alive."
-msgstr ""
+msgstr "Zabić wszystkich."
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:139
@@ -620,6 +686,8 @@ msgid ""
 "Kill till the last of them. And hide their corpses. I want no trace of what "
 "has happened here."
 msgstr ""
+"Dobij rannych i schowaj ciała. Nie chcę, żeby został najmniejszy ślad po "
+"tym, co tu się stało."
 
 #. [message]: speaker=unit
 #: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:155
@@ -628,14 +696,14 @@ msgstr ""
 #: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:234
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:224
 msgid "I will never have my revenge..."
-msgstr ""
+msgstr "Nigdy nie spełnię mojej zemsty..."
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/03_Resistance.cfg:166
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:347
 #: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:245
 msgid "There are too many of them!"
-msgstr ""
+msgstr "Jest ich zbyt wielu!"
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:6
@@ -643,6 +711,8 @@ msgid ""
 "Received the news of the struggles troubling his northern colonies, the King "
 "of Wesnoth decided to send a pack of cavalry."
 msgstr ""
+"Otrzymawszy wiadomość, o tym że jego północne kolonie nękane są atakami "
+"orków i innych stworów, Król Wesnoth wysłał kawalerię."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:9
@@ -650,6 +720,9 @@ msgid ""
 "Head of this company was a young officer, Ludoc. With him, a veteran knight "
 "of the Royal Army, Sir Rheran, known for riding the fastest horse in Wesnoth."
 msgstr ""
+"Dowódcą pułku był młody oficer Ludoc. Wraz z nim pojechał również weteran, "
+"rycerz Królewskiej Armi, Sir Rhean, który był znany z tego, że jest "
+"najszybszym jeźdźcem w całym Wesnoth."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:12
@@ -658,11 +731,14 @@ msgid ""
 "dawn, there was a huge crowd to see them. The knights hoped to reach the "
 "northern fort in a few days."
 msgstr ""
+"Pułk kawalerii był imponującym widokiem i kiedy rycerze o świcie opuszczali "
+"Weldyn, zebrał się tłum gapiów.  Rycerze mieli nadzieje osiągnąć północny "
+"fort w ciągu kilku dni."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:15
 msgid "But troubles were closer than they thought..."
-msgstr ""
+msgstr "Ale kłopoty były bliżej niż myśleli..."
 
 #. [scenario]: id=04_Knights
 #. [side]: type=Junior Commander, id=Ludoc
@@ -673,12 +749,12 @@ msgstr ""
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:42
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:64
 msgid "Knights"
-msgstr ""
+msgstr "Rycerze"
 
 #. [objective]: condition=win
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:50
 msgid "Defeat enemy leader"
-msgstr ""
+msgstr "Pokonaj wrogiego dowódce"
 
 #. [objective]: condition=lose
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:54
@@ -686,7 +762,7 @@ msgstr ""
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:49
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:35
 msgid "Death of Ludoc"
-msgstr ""
+msgstr "Śmierć Ludoca"
 
 #. [objective]: condition=lose
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:58
@@ -694,47 +770,47 @@ msgstr ""
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:53
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:39
 msgid "Death of Sir Rheran"
-msgstr ""
+msgstr "Śmierć Sir Rherana"
 
 #. [objective]: condition=lose
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:62
 msgid "Death of Okeanos"
-msgstr ""
+msgstr "Śmierć Okeanosa"
 
 #. [side]: type=Junior Commander, id=Ludoc
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:76
 msgid "Ludoc"
-msgstr ""
+msgstr "Ludoc"
 
 #. [unit]: type=Royal Knight, id=Rheran
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:92
 msgid "Sir Rheran"
-msgstr ""
+msgstr "Sir Rheran"
 
 #. [side]: type=Merman Triton, id=Okeanos
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:107
 msgid "Okeanos"
-msgstr ""
+msgstr "Okeanos"
 
 #. [side]: type=Merman Triton, id=Okeanos
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:114
 msgid "Merfolk"
-msgstr ""
+msgstr "Merfolk"
 
 #. [side]: type=Naga Myrmidon, id=Amailis
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:121
 msgid "Amailis"
-msgstr ""
+msgstr "Amailis"
 
 #. [label]
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:159
 msgid "Great River"
-msgstr ""
+msgstr "Wielka Rzeka"
 
 #. [message]: speaker=Ludoc
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:167
 msgid "I hear sounds of battle and cries of wounded. What's happening?"
-msgstr ""
+msgstr "Słyszę odgłosy bitwy i krzyki rannych. Co się dzieje?"
 
 #. [message]: speaker=Okeanos
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:171
@@ -742,11 +818,14 @@ msgid ""
 "Noble Knights, nagas are troubling us. They want to steal our gold and they "
 "kill our women and children. Help us and we will be forever grateful!"
 msgstr ""
+"Szlachetni Rycerze, nagi cały czas nas niepokoją. Chcą ukraść złoto, "
+"zabijają nasze kobiety i dzieci. Pomóż nam, a będziemy ci na zawszę "
+"wdzięczni!"
 
 #. [message]: speaker=Ludoc
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:175
 msgid "We can't waste time here. Our journey is still long."
-msgstr ""
+msgstr "Nie możemy tracić czasu. Przed nami jeszcze długa droga."
 
 #. [message]: speaker=Rheran
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:179
@@ -755,21 +834,24 @@ msgid ""
 "while they are killed. Besides this, we must pass that bridge and we would "
 "be right in the middle of the conflict."
 msgstr ""
+"Ale to jest nasz rycerski obowiązek, pomagać potrzebującym. Nie możemy "
+"przejść obok, kiedy oni są zabijani. Poza tym, kiedy będziemy przechodzić "
+"przez most, znajdziemy się w środku konfliktu."
 
 #. [unit]: type=Mage, id=Hermit
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:196
 msgid "Hermit"
-msgstr ""
+msgstr "Hermit"
 
 #. [message]: speaker=Hermit
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:203
 msgid "Please, leave me alone and don't disturb my meditation."
-msgstr ""
+msgstr "Proszę zostaw mnie w spokoju i nie przeszkadzaj mi w medytacji."
 
 #. [message]: speaker=unit
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:217
 msgid "I told you we shouldn't have stopped here..."
-msgstr ""
+msgstr "Mówiłem ci, że nie powinniśmy się tutaj zatrzymywać..."
 
 #. [message]: speaker=unit
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:231
@@ -777,27 +859,27 @@ msgstr ""
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:272
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:252
 msgid "Farewell... continue without me..."
-msgstr ""
+msgstr "Żegnaj... Musisz iść dalej beze mnie..."
 
 #. [message]: speaker=unit
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:245
 msgid "Noble Knights, I trusted you, but you failed us..."
-msgstr ""
+msgstr "Szlachetni rycerze, ufałem wam, ale zawiedliście nas..."
 
 #. [message]: speaker=unit
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:259
 msgid "Bad humans and bad horses... you'll pay for this..."
-msgstr ""
+msgstr "Źli ludzie i źle konie... zapłacicie za to..."
 
 #. [message]: speaker=Ludoc
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:263
 msgid "Not today. Let's go men."
-msgstr ""
+msgstr "Nie dzisiaj! Chodźmy ludzie."
 
 #. [message]: speaker=Ludoc
 #: A_Story_of_the_Northlands/scenarios/04_Knights.cfg:276
 msgid "We are wasting too much time here!"
-msgstr ""
+msgstr "Tracimy tutaj zbyt wiele czasu!"
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:6
@@ -806,6 +888,9 @@ msgid ""
 "small orc and goblin groups, never leaving any survivor. Entire groups "
 "disappeared without a trace in the time of a night."
 msgstr ""
+"Alena i jej ludzie znacznie poprawili swoje umiejętności, atakując małe "
+"patrole orków i grupy goblinów, nie zostawiwszy ani jednego żywego. Całe "
+"oddziały wrogół znikały bez śladu."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:9
@@ -815,11 +900,15 @@ msgid ""
 "responsible of the disappearances. But they knew there was something "
 "outside, almost unnatural."
 msgstr ""
+"Pośród orków zaczęła krążyć legenda, że coś złego przytrafia się im, kiedy "
+"tylko zostaną zaskoczeni przez noc poza murami obozów i wiosek. Żaden z nich "
+"nie miał pojęcia, co może być odpowiedzialne za tajemnicze zniknięcia, ale "
+"wiedzieli, że coś się czaiło. Coś niemal nadnaturalnego."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:12
 msgid "They began to call them the Shadows."
-msgstr ""
+msgstr "Zaczęli nazywać ich Cieniami."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:15
@@ -827,6 +916,8 @@ msgid ""
 "And the Shadows were ready to strike again. This time the target was a small "
 "orcish village across the river."
 msgstr ""
+"A cenie były gotowe znów uderzyć. Ich celem ma być mała wioska orków po "
+"drugiej stronie rzeki."
 
 #. [scenario]: id=05_Shadows
 #. [side]
@@ -838,27 +929,27 @@ msgstr ""
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:62
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:73
 msgid "Shadows"
-msgstr ""
+msgstr "Cienie"
 
 #. [objective]: condition=win
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:44
 msgid "Defeat Eradash"
-msgstr ""
+msgstr "Pokonaj Eradacha"
 
 #. [unit]: type=ASotN_Footpad, id=Blaec
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:72
 msgid "Blaec"
-msgstr ""
+msgstr "Blaec"
 
 #. [side]: type=Orcish Warlord, id=Eradash
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:85
 msgid "Eradash"
-msgstr ""
+msgstr "Eradash"
 
 #. [side]
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:101
 msgid "Wolves"
-msgstr ""
+msgstr "Wilki"
 
 #. [unit]: type=Goblin Knight, id=wolf4
 #. [unit]: type=Goblin Knight, id=wolf5
@@ -875,7 +966,7 @@ msgstr ""
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:171
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:184
 msgid "Goblin Guard"
-msgstr ""
+msgstr "Goblińska Straż"
 
 #. [message]: speaker=Blaec
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:206
@@ -883,6 +974,8 @@ msgid ""
 "Winter is much harsher north of the river. We must be careful not to be "
 "caught in snow."
 msgstr ""
+"Zima jest znacznie ostrzejsza na północ od rzeki. Musimy uważać, żeby nie "
+"schwytali nas w śniegu."
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:210
@@ -891,42 +984,47 @@ msgid ""
 "remember they can't see us while we are in forests. We can deal about them "
 "later. Our priority is that big orc down there."
 msgstr ""
+"I powinniśmy unikać wilków. Trzymajcie się od nich z dala i pamiętajcie, że "
+"nie mogą nas zobaczyć, kiedy jesteśmy w lesie. Możemy się nimi zająć "
+"później. Naszym priorytetem jest ten duży Ork."
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:230
 msgid "This mist makes everything harder. Now we can't see wolves."
 msgstr ""
+"Ta mgła sprawia, że wszystko jest trudniejsze. Teraz nie możemy zobaczyć "
+"wilków."
 
 #. [message]: speaker=unit
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:244
 msgid "Enemies in sight!"
-msgstr ""
+msgstr "Wróg w zasięgu wzroku!"
 
 #. [unit]: type=Goblin Rouser, id=Hogor
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:275
 msgid "Hogor"
-msgstr ""
+msgstr "Hogor"
 
 #. [message]: id=Hogor
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:300
 msgid "My pets have smelt something. Get them!"
-msgstr ""
+msgstr "Moje zwierzaki poczuły coś! Brać ich!"
 
 #. [message]: id=Alena
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:305
 msgid "They spotted us! Now we must kill them as well!"
-msgstr ""
+msgstr "Zauważyli nas! Teraz musimy ich wszystkich zabić!"
 
 #. [objective]: condition=lose
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:323
 #: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:382
 msgid "Time runs out"
-msgstr ""
+msgstr "Koniec czasu"
 
 #. [message]: speaker=unit
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:361
 msgid "Defeated... by a band of little humans..."
-msgstr ""
+msgstr "Pokonani... przez małą grupkę ludzi..."
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:369
@@ -935,11 +1033,14 @@ msgid ""
 "free our village, there are too many orcs in these surroundings. We must do "
 "something more."
 msgstr ""
+"To kolejny cios dla władzy orków w tym regionie. Ale to nie wystarczy, żeby "
+"uwolnić naszą wioskę. W tej okolicy jest zbyt wielu orków. Musimy coś "
+"jeszcze zrobić."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:6
 msgid "Ludoc and his pack of cavalry continued their ride North."
-msgstr ""
+msgstr "Ludoc i jego pułk kawalerii kontynuowali jazdę na północ."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:9
@@ -947,21 +1048,22 @@ msgid ""
 "Their path had to cross the Swamp of Dread, where more troubles expected "
 "them."
 msgstr ""
+"Ich ścieżka miała przekroczyć Bagna Grozy, gdzie czekało ich więcej kłopotów."
 
 #. [scenario]: id=06_Swamps
 #: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:26
 msgid "Swamps"
-msgstr ""
+msgstr "Bagna"
 
 #. [objective]: condition=win
 #: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:43
 msgid "Escape the swamp with Ludoc"
-msgstr ""
+msgstr "Ucieknij z Bagien wraz z Ludociem"
 
 #. [side]: type=Saurian Flanker, id=Krarax
 #: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:78
 msgid "Krarax"
-msgstr ""
+msgstr "Krarax"
 
 #. [side]: type=Saurian Flanker, id=Krarax
 #. [side]: type=Saurian Oracle
@@ -970,47 +1072,47 @@ msgstr ""
 #: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:96
 #: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:107
 msgid "Saurians"
-msgstr ""
+msgstr "Jaszczury "
 
 #. [message]: speaker=Ludoc
 #: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:118
 msgid "So this is the Swamp of Dread. Now I understand its name..."
-msgstr ""
+msgstr "Więc to jest Bagno Grozy! Teraz rozumiem skąd ta nazwa..."
 
 #. [message]: speaker=Rheran
 #: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:122
 msgid "Let's hope this fog hides us from whatever lives here."
-msgstr ""
+msgstr "Miejmy nadzieje, że mgła ukrywa nas przed tym, co tu żyje."
 
 #. [message]: speaker=Krarax
 #: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:127
 msgid "Humansss with shiny sspearsss! Kill them! Take their gold!"
-msgstr ""
+msgstr "Ludzie z błyssszczącymi włóczniami! Zabić ich! Zabrać ich złoto!"
 
 #. [message]: speaker=Ludoc
 #: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:131
 msgid "Lizards... We must get out of here! Fast!"
-msgstr ""
+msgstr "Jaszczurki... Musimy się stąd wydostać! Szybko!"
 
 #. [message]: speaker=unit
 #: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:149
 msgid "We have made it. Onwards!"
-msgstr ""
+msgstr "Zrobiliśmy to. Naprzód!"
 
 #. [message]: speaker=unit
 #: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:165
 msgid "Killed by a bunch of lizards..."
-msgstr ""
+msgstr "Zabity przez bandę jaszczurek..."
 
 #. [message]: speaker=Ludoc
 #: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:193
 msgid "This lizard had some gold hidden. Take it."
-msgstr ""
+msgstr "Ta jaszczurka miała trochę ukrytego złota. Wezmę je."
 
 #. [message]: speaker=Ludoc
 #: A_Story_of_the_Northlands/scenarios/06_Swamps.cfg:205
 msgid "We got lost! We must start over."
-msgstr ""
+msgstr "Zgubiliśmy się! Musimy zacząć od początku."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:6
@@ -1018,6 +1120,9 @@ msgid ""
 "Alena's small army kept attacking orcish villages and groups, but she knew "
 "that they were only dealing minor damages to the orcish power."
 msgstr ""
+"Mała armia Aleny ciągle atakowała wioski orków i ich oddziały, ale "
+"wiedziała, że jest to niewystarczające, aby zagrozić ich dominacja na tych "
+"terytoriach."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:9
@@ -1025,6 +1130,8 @@ msgid ""
 "One day, they found a map on a corpse, a map showing the path of a caravan "
 "of supplies directed towards their occupied village."
 msgstr ""
+"Pewnego dnia znalazła mapę przy jednym z trupów. Mapa ta pokazywała drogę "
+"karawan wiozących zaopatrzenie do jej okupowanej wioski."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:12
@@ -1032,26 +1139,29 @@ msgid ""
 "There was a date on the map. It was the next day. So Alena took a few fast "
 "and unwounded fighters and rushed there, hoping to intercept the caravan."
 msgstr ""
+"Na mapie była jutrzejsza data. Alena wzięła więc ze sobą kilku szybkich i "
+"doświadczonych wojowników, mając nadzieje, że uda im się przechwycić "
+"karawanę."
 
 #. [scenario]: id=07_Ambush
 #: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:26
 msgid "Ambush"
-msgstr ""
+msgstr "Zasadzka"
 
 #. [objective]: condition=win
 #: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:55
 msgid "Destroy all caravans"
-msgstr ""
+msgstr "Zniszcz wszystkie karawany"
 
 #. [objective]: condition=lose
 #: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:63
 msgid "A caravan manages to escape"
-msgstr ""
+msgstr "Karawanie udaje się uciec"
 
 #. [unit]: type=ASotN_Trapper, id=Cunry
 #: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:87
 msgid "Cunry"
-msgstr ""
+msgstr "Cunry"
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:223
@@ -1059,6 +1169,8 @@ msgid ""
 "Cunry should be in position on the other side of the valley. We'll take them "
 "in the middle. But I fear we are too few."
 msgstr ""
+"Cunry powinien być na pozycji po drugiej stronie doliny. Weźmiemy je w "
+"środku. Obawiam się jednak, że jest nas za mało."
 
 #. [message]: speaker=Cunry
 #: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:227
@@ -1066,26 +1178,28 @@ msgid ""
 "We are ready. Their leader has a bag of gold with him. It would be useful to "
 "get it."
 msgstr ""
+"Jesteśmy gotowi. Ich przywódca ma przy sobie worek złota. Dobrze by było się "
+"do niego dostać."
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:248
 msgid "Take his gold."
-msgstr ""
+msgstr "Weź jego złoto."
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:274
 msgid "We have too few veterans for this. These orcs are too strong!"
-msgstr ""
+msgstr "Mamy za mało weteranów na to. Orkowie są zbyt silni!"
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:289
 msgid "A caravan managed to pass by!"
-msgstr ""
+msgstr "Karawanie udało się przejechać!"
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:311
 msgid "He has escaped! Let's now concentrate on the caravans."
-msgstr ""
+msgstr "Uciekł! Skupmy się teraz na karawanach."
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:368
@@ -1093,16 +1207,18 @@ msgid ""
 "The caravans are destroyed but more wolves are coming. Everybody retire "
 "South. We can't face all of them in an open battle."
 msgstr ""
+"Karawany są zniszczone, ale nadciąga więcej wilków. Niech każdy ucieka na "
+"południe. Nie możemy stawić im czoła w otwartej bitwie."
 
 #. [objective]: condition=win
 #: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:374
 msgid "Move Alena to the signpost"
-msgstr ""
+msgstr "Przenieś Alenę do drogowskazu"
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:390
 msgid "Still $caravans_to_destroy. Keep fighting!"
-msgstr ""
+msgstr "Zostało $caravans_to_destroy. Walcz dalej!"
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/07_Ambush.cfg:410
@@ -1110,6 +1226,8 @@ msgid ""
 "Very well! Now we can reorganize and easily beat them if they dare to follow "
 "us."
 msgstr ""
+"Bardzo dobrze! Teraz możemy się przegrupować i łatwo ich pokonać, jeśli "
+"odważą się za nami podążać."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:6
@@ -1117,36 +1235,38 @@ msgid ""
 "After another long journey, the knights finally arrived in sight of the fort "
 "on river Listra."
 msgstr ""
+"Po kolejnej długiej podróży rycerze w końcu przybyli do fortu nad rzeką "
+"Listra."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:9
 msgid "The orcs were already there..."
-msgstr ""
+msgstr "Orkowie ich uprzedzili..."
 
 #. [scenario]: id=08_Charge
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:29
 msgid "Charge"
-msgstr ""
+msgstr "Szarża"
 
 #. [objective]: condition=lose
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:57
 msgid "Death of Caredd"
-msgstr ""
+msgstr "Śmierć Caredda"
 
 #. [message]: speaker=Ludoc
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:168
 msgid "The fort is under attack! We must protect it!"
-msgstr ""
+msgstr "Fort jest atakowany! Musimy go chronić!"
 
 #. [message]: speaker=Caredd
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:172
 msgid "Knights from Wesnoth! We are safe!"
-msgstr ""
+msgstr "Rycerze z Wesnoth! Jesteśmy uratowani!"
 
 #. [message]: speaker=Caredd
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:184
 msgid "We owe you our lives, Knights."
-msgstr ""
+msgstr "Zawdzięczamy wam życie, Rycerze."
 
 #. [message]: speaker=Rheran
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:188
@@ -1154,16 +1274,18 @@ msgid ""
 "It was our duty. Now we must head North along Longlier to free an attacked "
 "village."
 msgstr ""
+"To był nasz obowiązek. Teraz musimy podążać na północ wzdłuż rzeki Listry, "
+"żeby uwolnić zaatakowaną wioskę."
 
 #. [message]: speaker=Aethen
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:221
 msgid "My village! You are going to free my village!"
-msgstr ""
+msgstr "Moja wioska! Jedziesz uwolnić moją wioskę!"
 
 #. [message]: speaker=Rheran
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:225
 msgid "Who is this child?"
-msgstr ""
+msgstr "Kim jest to dziecko?"
 
 #. [message]: speaker=Aethen
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:229
@@ -1171,6 +1293,8 @@ msgid ""
 "I'm the son of the village chief. He sent me to look for help. Now I'll come "
 "with you."
 msgstr ""
+"Jestem synem starszego wioski. Wysłał mnie, bym szukał pomocy. Teraz pojadę "
+"z tobą."
 
 #. [message]: speaker=Rheran
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:233
@@ -1178,27 +1302,29 @@ msgid ""
 "No way! It will be hard enough without having a child to care about. Stay "
 "here until we are back."
 msgstr ""
+"Nie ma mowy! To już będzie wystarczająco trudne bez pałętającego się pod "
+"nogami dzieciaka. Poczekasz tutaj dopóki nie wrócimy."
 
 #. [message]: speaker=Aethen
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:237
 msgid "But..."
-msgstr ""
+msgstr "Ale..."
 
 #. [message]: speaker=Rheran
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:241
 msgid "You will stay here!"
-msgstr ""
+msgstr "Zostaniesz tutaj!"
 
 #. [message]: speaker=unit
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:258
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:238
 msgid "We failed..."
-msgstr ""
+msgstr "Zawiedliśmy..."
 
 #. [message]: speaker=Ludoc
 #: A_Story_of_the_Northlands/scenarios/08_Charge.cfg:297
 msgid "There are too many of them! We are hopeless!"
-msgstr ""
+msgstr "Jest ich zbyt wielu! Jesteśmy zgubieni!"
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:6
@@ -1206,6 +1332,9 @@ msgid ""
 "Great news for Alena: from an orcish patrol they ambushed, they learned that "
 "four orcish shamans were visiting a nearby tribe."
 msgstr ""
+"Wspaniała wiadomość dla Aleny: dowiedzieliśmy się od jednego z orków z "
+"patrolu, który wpadł w zasadzkę, że czterech szamanów odwiedza pobliskie "
+"plemię."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:9
@@ -1213,6 +1342,8 @@ msgid ""
 "It was a unique occasion. With the shamans dead, orcs would have been unable "
 "to organize a compact army for a while."
 msgstr ""
+"To była niepowtarzalna okazja. Wraz ze śmiercią szamanów, orkowie nie "
+"mogliby dalej utrzymać zwartej armii."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:12
@@ -1220,21 +1351,23 @@ msgid ""
 "There was only one problem: the shamans were always heavily protected by "
 "loyal guards."
 msgstr ""
+"Był tylko jeden problem: szamani zawsze byli silnie chronieni przez "
+"lojalnych strażników."
 
 #. [scenario]: id=09_Revenge
 #: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:27
 msgid "Revenge"
-msgstr ""
+msgstr "Zemsta"
 
 #. [objective]: condition=win
 #: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:46
 msgid "Kill the four shamans"
-msgstr ""
+msgstr "Zabij czterech szamanów"
 
 #. [unit]: type=ASotN_Bandit, id=Demyr
 #: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:74
 msgid "Demyr"
-msgstr ""
+msgstr "Demyr"
 
 #. [message]: speaker=Demyr
 #: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:210
@@ -1243,38 +1376,41 @@ msgid ""
 "sword is impressive and it is said that they would be ready to give their "
 "life to protect the shamans."
 msgstr ""
+"Ci strażnicy to najwięksi orkowie, jakich w życiu widziałem. Ich umiejętność "
+"walki mieczem jest imponująca i są gotowi oddać życie, żeby ochronić "
+"szamanów."
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:214
 msgid "It's exactly what they will do."
-msgstr ""
+msgstr "To jest dokładnie to, co zrobią."
 
 #. [message]: speaker=ruler
 #: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:219
 msgid "They want to kill the shamans! Destroy them!"
-msgstr ""
+msgstr "Oni chcą zabić szamanów! Zniszczyć ich!"
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/09_Revenge.cfg:269
 msgid "The shamans are dead! This is an important blow to the orcish power!"
-msgstr ""
+msgstr "Szamani są martwi! To potężny cios dla orkowej władzy!"
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:6
 msgid "The Knights kept following their path along the river..."
-msgstr ""
+msgstr "Rycerze podążali swoją drogą wzdłuż rzeki..."
 
 #. [scenario]: id=10_Meeting
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:25
 msgid "Meeting"
-msgstr ""
+msgstr "Spotkanie"
 
 #. [message]: speaker=knight2
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:111
 msgid ""
 "Sir, have you noticed that someone has been following us in the last few "
 "days?"
-msgstr ""
+msgstr "Sir, czy zauważyłeś, że przez ostatnie kilka dni ktoś za nami podąża?"
 
 #. [message]: speaker=Rheran
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:115
@@ -1282,36 +1418,38 @@ msgid ""
 "Yes, it's that child from the village. I spotted him last night. He "
 "approached when we were sleeping. There's nothing to be afraid of."
 msgstr ""
+"Tak, jest to dziecko ze wsi. Zauważyłem go zeszłej nocy. Podszedł kiedy "
+"spaliśmy. Nie ma się czego bać."
 
 #. [message]: speaker=knight1
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:119
 msgid "Except for this forest... I don't like being surrounded by trees..."
-msgstr ""
+msgstr "Z wyjątkiem tego lasu... Nie lubię być otoczony drzewami..."
 
 #. [message]: speaker=Ludoc
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:123
 msgid "Enough talk, men. Let's go!"
-msgstr ""
+msgstr "Dość gadania ludzie. Ruszajmy!"
 
 #. [message]: speaker=Ludoc
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:133
 msgid "A house. Maybe there's somebody. Hey, in the house!"
-msgstr ""
+msgstr "O dom. Może ktoś tam jest? Hej, wy w domu!"
 
 #. [message]: speaker=Ludoc
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:137
 msgid "The door is opening... ready with your weapons."
-msgstr ""
+msgstr "Drzwi się otwierają... przygotujcie broń."
 
 #. [message]: speaker=Rheran
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:150
 msgid "It's only a woman."
-msgstr ""
+msgstr "To tylko kobieta."
 
 #. [message]: speaker=s7
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:157
 msgid "Hail, Knights. What brings you in these lands?"
-msgstr ""
+msgstr "Zdrowaś, Rycerze. Co was sprowadza na te ziemie?"
 
 #. [message]: speaker=Rheran
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:161
@@ -1319,31 +1457,33 @@ msgid ""
 "We just need to pass by. Can you give us news about villages in this area? "
 "And about orcs?"
 msgstr ""
+"Po prostu tędy przechodzimy. Czy możesz nam opowiedzieć o wioskach w tej "
+"okolicy? I o orkach?"
 
 #. [message]: speaker=knight1
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:173
 msgid "It's an ambush! Ready to fight!"
-msgstr ""
+msgstr "To jest zasadzka! Przygotować się do walki!"
 
 #. [message]: speaker=s1
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:177
 msgid "Don't even try! Archers are aiming at you from the forest."
-msgstr ""
+msgstr "Nawet nie próbuj! Łucznicy, strzelając z lasu, zrobią z ciebie jeża."
 
 #. [message]: speaker=knight2
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:181
 msgid "The way behind us is still open..."
-msgstr ""
+msgstr "Droga za nami nadal jest pusta..."
 
 #. [message]: speaker=s5
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:188
 msgid "I don't think so..."
-msgstr ""
+msgstr "Nie sądzę..."
 
 #. [message]: speaker=Ludoc
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:192
 msgid "These bandits have surrounded us..."
-msgstr ""
+msgstr "Ci bandyci otoczyli nas..."
 
 #. [message]: speaker=s6
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:199
@@ -1351,6 +1491,8 @@ msgid ""
 "We aren't bandits. We are fighters for freedom. Now you will tell us the "
 "reason of your presence here. Consider yourself prisoners."
 msgstr ""
+"Nie jesteśmy bandytami. Jesteśmy bojownikami o wolność. Teraz powiesz nam "
+"czemu tu przyjechaliście.  Możecie uważać się za jeńców."
 
 #. [message]: speaker=Aethen
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:215
@@ -1358,11 +1500,14 @@ msgid ""
 "No! I know you, you are from my village. These knights have come here to "
 "free our village. They have been sent by the King."
 msgstr ""
+"Nie! Znam cię, jesteś z mojej wsi. Ci rycerze przybyli tutaj, żeby uwolnić "
+"naszą wioskę. Zostali wysłani prze samego Króla."
 
 #. [message]: speaker=s6
 #: A_Story_of_the_Northlands/scenarios/10_Meeting.cfg:219
 msgid "In this case, Alena will be glad to meet you. Follow us please."
 msgstr ""
+"W tym przypadku, Alena z przyjemnością was pozna. Proszę chodźcie za mną."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:6
@@ -1372,11 +1517,15 @@ msgid ""
 "point, Alena and her men would attack from the forest in the West and "
 "hopefully penetrate in the village."
 msgstr ""
+"Tak więc ustalono plan odbicia wioski: rycerze zaatakują z południa i "
+"spróbują odciągnąć orków jak najdalej od wsi. W tym momencie Alena i jej "
+"ludzie zaatakują z lasu na wschodzie i miejmy nadzieje, że przedostaną się "
+"do wioski!"
 
 #. [scenario]: id=11_Freedom
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:18
 msgid "Freedom"
-msgstr ""
+msgstr "Wolność"
 
 #. [message]: speaker=Ludoc
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:124
@@ -1384,36 +1533,38 @@ msgid ""
 "Everybody, get ready. Our task is to hold position and stay outside the "
 "village."
 msgstr ""
+"Niech wszyscy się przygotują. Naszym zadaniem jest utrzymać pozycję i "
+"pozostać poza wioską."
 
 #. [message]: speaker=chief
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:129
 msgid "Human knights attacking from the South!"
-msgstr ""
+msgstr "Ludzcy rycerze atakują z południa!"
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:159
 msgid "We are here! For our village, for our families! Destroy them!"
-msgstr ""
+msgstr "Jesteśmy tu! Za naszą wioskę, za nasze rodziny! Zabić ich!"
 
 #. [message]: speaker=chief
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:202
 msgid "More humans from the forest! Let's call the goblin reserves!"
-msgstr ""
+msgstr "Więcej ludzi z lasu! Wezwij Gobliny!"
 
 #. [message]: speaker=unit
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:266
 msgid "Help me!"
-msgstr ""
+msgstr "Pomóż mi!"
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:270
 msgid "Brother! No!"
-msgstr ""
+msgstr "Bracie! Nie!"
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:292
 msgid "The village is free!"
-msgstr ""
+msgstr "Wioska jest wolna!"
 
 #. [message]: speaker=Rheran
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:296
@@ -1421,6 +1572,8 @@ msgid ""
 "It has been a great battle. We will return to the King and report him the "
 "last facts."
 msgstr ""
+"To była wielka bitwa. Musimy wrócić do króla i złożyć raport dotyczący "
+"ostatnich wydarzeń."
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:300
@@ -1428,16 +1581,18 @@ msgid ""
 "Farewell, Knights. Thank you for your help. I think the orcs will think "
 "twice before attacking us again."
 msgstr ""
+"Żegnajcie rycerze. Dziękuje za pomoc. Czuję, że orkowie dwa razy pomyślą "
+"zanim znowu nas zaatakują."
 
 #. [message]: speaker=Alena
 #: A_Story_of_the_Northlands/scenarios/11_Freedom.cfg:304
 msgid "And if they come, we will be ready to face them."
-msgstr ""
+msgstr "A jeśli się tak stanie, będziemy gotowi stawić im czoła."
 
 #. [unit_type]: id=ASotN_Assassin, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Assassin.cfg:4
 msgid "Assassin"
-msgstr ""
+msgstr "Zabójca"
 
 #. [unit_type]: id=ASotN_Assassin, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Assassin.cfg:20
@@ -1462,7 +1617,7 @@ msgstr ""
 #: A_Story_of_the_Northlands/units/Alena.cfg:143
 #: A_Story_of_the_Northlands/units/Alena.cfg:180
 msgid "dagger"
-msgstr ""
+msgstr "sztylet"
 
 #. [attack]: type=blade
 #: A_Story_of_the_Northlands/units/ASotN-Assassin.cfg:53
@@ -1471,17 +1626,17 @@ msgstr ""
 #: A_Story_of_the_Northlands/units/Alena.cfg:155
 #: A_Story_of_the_Northlands/units/Alena.cfg:192
 msgid "knife"
-msgstr ""
+msgstr "nóż"
 
 #. [female]
 #: A_Story_of_the_Northlands/units/ASotN-Assassin.cfg:180
 msgid "female^Assassin"
-msgstr ""
+msgstr "female^Zabójczyni"
 
 #. [unit_type]: id=ASotN_Bandit, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Bandit.cfg:4
 msgid "Bandit"
-msgstr ""
+msgstr "Bandyta"
 
 #. [unit_type]: id=ASotN_Bandit, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Bandit.cfg:18
@@ -1501,12 +1656,12 @@ msgstr ""
 #: A_Story_of_the_Northlands/units/Horseman_Commander.cfg:42
 #: A_Story_of_the_Northlands/units/Mounted_General.cfg:44
 msgid "mace"
-msgstr ""
+msgstr "buzdygan"
 
 #. [unit_type]: id=ASotN_Footpad, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Footpad.cfg:4
 msgid "Footpad"
-msgstr ""
+msgstr "Rozbójnik"
 
 #. [unit_type]: id=ASotN_Footpad, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Footpad.cfg:21
@@ -1525,7 +1680,7 @@ msgstr ""
 #: A_Story_of_the_Northlands/units/ASotN-Thug.cfg:40
 #: A_Story_of_the_Northlands/units/ASotN-Vagrant.cfg:40
 msgid "club"
-msgstr ""
+msgstr "maczuga"
 
 #. [attack]: type=impact
 #: A_Story_of_the_Northlands/units/ASotN-Footpad.cfg:50
@@ -1534,12 +1689,12 @@ msgstr ""
 #: A_Story_of_the_Northlands/units/ASotN-Vagrant.cfg:49
 #: A_Story_of_the_Northlands/units/Village_Woman.cfg:98
 msgid "sling"
-msgstr ""
+msgstr "proca"
 
 #. [female]
 #: A_Story_of_the_Northlands/units/ASotN-Footpad.cfg:179
 msgid "female^Footpad"
-msgstr ""
+msgstr "female^Rozbójniczka"
 
 #. [unit_type]: id=ASotN_Fugitive, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Fugitive.cfg:20
@@ -1552,12 +1707,12 @@ msgstr ""
 #. [female]
 #: A_Story_of_the_Northlands/units/ASotN-Fugitive.cfg:122
 msgid "female^Fugitive"
-msgstr ""
+msgstr "female^Uciekinierka"
 
 #. [unit_type]: id=ASotN_Highwayman, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Highwayman.cfg:5
 msgid "Highwayman"
-msgstr ""
+msgstr "Zbójca"
 
 #. [unit_type]: id=ASotN_Highwayman, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Highwayman.cfg:20
@@ -1572,7 +1727,7 @@ msgstr ""
 #. [unit_type]: id=ASotN_Huntsman, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Huntsman.cfg:5
 msgid "Huntsman"
-msgstr ""
+msgstr "Myśliwy"
 
 #. [unit_type]: id=ASotN_Huntsman, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Huntsman.cfg:21
@@ -1601,12 +1756,12 @@ msgstr ""
 #: A_Story_of_the_Northlands/units/ASotN-Woodsman.cfg:50
 #: A_Story_of_the_Northlands/units/Horse_Cavalry_Archer.cfg:39
 msgid "bow"
-msgstr ""
+msgstr "łuk"
 
 #. [unit_type]: id=ASotN_Outlaw, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Outlaw.cfg:4
 msgid "Outlaw"
-msgstr ""
+msgstr "Banita"
 
 #. [unit_type]: id=ASotN_Outlaw, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Outlaw.cfg:19
@@ -1623,12 +1778,12 @@ msgstr ""
 #. [female]
 #: A_Story_of_the_Northlands/units/ASotN-Outlaw.cfg:118
 msgid "female^Outlaw"
-msgstr ""
+msgstr "female^Banitka"
 
 #. [unit_type]: id=ASotN_Poacher, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Poacher.cfg:4
 msgid "Poacher"
-msgstr ""
+msgstr "Kłusownik"
 
 #. [unit_type]: id=ASotN_Poacher, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Poacher.cfg:20
@@ -1642,7 +1797,7 @@ msgstr ""
 #. [unit_type]: id=ASotN_Ranger, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Ranger.cfg:5
 msgid "Ranger"
-msgstr ""
+msgstr "Łowca"
 
 #. [unit_type]: id=ASotN_Ranger, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Ranger.cfg:21
@@ -1665,12 +1820,12 @@ msgstr ""
 #: A_Story_of_the_Northlands/units/Horse_Archer.cfg:51
 #: A_Story_of_the_Northlands/units/Horse_Archer_Knight.cfg:30
 msgid "sword"
-msgstr ""
+msgstr "miecz"
 
 #. [unit_type]: id=ASotN_Robber, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Robber.cfg:4
 msgid "Robber"
-msgstr ""
+msgstr "Rabuś"
 
 #. [unit_type]: id=ASotN_Robber, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Robber.cfg:20
@@ -1680,7 +1835,7 @@ msgstr ""
 #. [unit_type]: id=ASotN_Rogue, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Rogue.cfg:4
 msgid "Rogue"
-msgstr ""
+msgstr "Łotr"
 
 #. [unit_type]: id=ASotN_Rogue, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Rogue.cfg:19
@@ -1696,12 +1851,12 @@ msgstr ""
 #. [female]
 #: A_Story_of_the_Northlands/units/ASotN-Rogue.cfg:154
 msgid "female^Rogue"
-msgstr ""
+msgstr "female^Łotrzyca"
 
 #. [unit_type]: id=ASotN_Ruffian, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Ruffian.cfg:4
 msgid "Ruffian"
-msgstr ""
+msgstr "Drab"
 
 #. [unit_type]: id=ASotN_Ruffian, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Ruffian.cfg:19
@@ -1716,7 +1871,7 @@ msgstr ""
 #. [unit_type]: id=ASotN_Thief, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Thief.cfg:4
 msgid "Thief"
-msgstr ""
+msgstr "Złodziej"
 
 #. [unit_type]: id=ASotN_Thief, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Thief.cfg:20
@@ -1733,12 +1888,12 @@ msgstr ""
 #. [female]
 #: A_Story_of_the_Northlands/units/ASotN-Thief.cfg:380
 msgid "female^Thief"
-msgstr ""
+msgstr "female^Złodziejka"
 
 #. [unit_type]: id=ASotN_Thug, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Thug.cfg:4
 msgid "Thug"
-msgstr ""
+msgstr "Bandyta"
 
 #. [unit_type]: id=ASotN_Thug, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Thug.cfg:20
@@ -1753,7 +1908,7 @@ msgstr ""
 #. [unit_type]: id=ASotN_Trapper, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Trapper.cfg:4
 msgid "Trapper"
-msgstr ""
+msgstr "Traper"
 
 #. [unit_type]: id=ASotN_Trapper, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Trapper.cfg:19
@@ -1767,7 +1922,7 @@ msgstr ""
 #. [unit_type]: id=ASotN_Vagrant, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Vagrant.cfg:4
 msgid "Vagrant"
-msgstr ""
+msgstr "Włóczęga"
 
 #. [unit_type]: id=ASotN_Vagrant, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Vagrant.cfg:20
@@ -1781,7 +1936,7 @@ msgstr ""
 #. [unit_type]: id=ASotN_Woodsman, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Woodsman.cfg:4
 msgid "Woodsman"
-msgstr ""
+msgstr "Leśnik"
 
 #. [unit_type]: id=ASotN_Woodsman, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Woodsman.cfg:20
@@ -1794,7 +1949,7 @@ msgstr ""
 #. [unit_type]: id=Rebel Fighter, race=human
 #: A_Story_of_the_Northlands/units/Alena.cfg:4
 msgid "Rebel Fighter"
-msgstr ""
+msgstr "Wojownik Rebeliantów"
 
 #. [unit_type]: id=Rebel Fighter, race=human
 #: A_Story_of_the_Northlands/units/Alena.cfg:19
@@ -1806,32 +1961,32 @@ msgstr ""
 #. [unit_type]: id=Rebel Leader
 #: A_Story_of_the_Northlands/units/Alena.cfg:137
 msgid "Rebel Leader"
-msgstr ""
+msgstr "Lider Rebelantów"
 
 #. [unit_type]: id=Rebel Commander
 #: A_Story_of_the_Northlands/units/Alena.cfg:173
 msgid "Rebel Commander"
-msgstr ""
+msgstr "Przywódca Rebeliantów"
 
 #. [unit_type]: id=Brute, race=human
 #: A_Story_of_the_Northlands/units/Brute.cfg:4
 msgid "Brute"
-msgstr ""
+msgstr "Brutal"
 
 #. [unit_type]: id=Brute, race=human
 #: A_Story_of_the_Northlands/units/Brute.cfg:20
 msgid "Brutes are bloodthirsty."
-msgstr ""
+msgstr "Brutale pragną krwi."
 
 #. [attack]: type=impact
 #: A_Story_of_the_Northlands/units/Brute.cfg:38
 msgid "fist"
-msgstr ""
+msgstr "pięść"
 
 #. [unit_type]: id=Caravan, race=mechanical
 #: A_Story_of_the_Northlands/units/Caravan.cfg:4
 msgid "Caravan"
-msgstr ""
+msgstr "Karawana"
 
 #. [unit_type]: id=Caravan, race=mechanical
 #: A_Story_of_the_Northlands/units/Caravan.cfg:17
@@ -1843,7 +1998,7 @@ msgstr ""
 #. [unit_type]: id=Farmhand, race=human
 #: A_Story_of_the_Northlands/units/Farmhand.cfg:4
 msgid "Farmhand"
-msgstr ""
+msgstr "Parobek"
 
 #. [unit_type]: id=Farmhand, race=human
 #: A_Story_of_the_Northlands/units/Farmhand.cfg:20
@@ -1856,12 +2011,12 @@ msgstr ""
 #. [attack]: type=pierce
 #: A_Story_of_the_Northlands/units/Farmhand.cfg:37
 msgid "pitchfork"
-msgstr ""
+msgstr "widły"
 
 #. [unit_type]: id=Archer Rider, race=human
 #: A_Story_of_the_Northlands/units/Horse_Archer.cfg:4
 msgid "Archer Rider"
-msgstr ""
+msgstr "Konny łucznik"
 
 #. [unit_type]: id=Archer Rider, race=human
 #: A_Story_of_the_Northlands/units/Horse_Archer.cfg:21
@@ -1874,12 +2029,12 @@ msgstr ""
 #: A_Story_of_the_Northlands/units/Horse_Archer.cfg:60
 #: A_Story_of_the_Northlands/units/Horse_Archer_Knight.cfg:40
 msgid "longbow"
-msgstr ""
+msgstr "długi łuk"
 
 #. [unit_type]: id=Archer Knight, race=human
 #: A_Story_of_the_Northlands/units/Horse_Archer_Knight.cfg:4
 msgid "Archer Knight"
-msgstr ""
+msgstr "Rycerz łucznik"
 
 #. [unit_type]: id=Archer Knight, race=human
 #: A_Story_of_the_Northlands/units/Horse_Archer_Knight.cfg:19
@@ -1891,7 +2046,7 @@ msgstr ""
 #. [unit_type]: id=Royal Knight, race=human
 #: A_Story_of_the_Northlands/units/Horse_Black_Knight.cfg:4
 msgid "Royal Knight"
-msgstr ""
+msgstr "Królewski Rycerz"
 
 #. [unit_type]: id=Royal Knight, race=human
 #: A_Story_of_the_Northlands/units/Horse_Black_Knight.cfg:21
@@ -1903,19 +2058,19 @@ msgstr ""
 #. [attack]: type=impact
 #: A_Story_of_the_Northlands/units/Horse_Black_Knight.cfg:38
 msgid "flail"
-msgstr ""
+msgstr "cep"
 
 #. [attack]: type=pierce
 #: A_Story_of_the_Northlands/units/Horse_Black_Knight.cfg:47
 #: A_Story_of_the_Northlands/units/Horseman_Commander.cfg:31
 #: A_Story_of_the_Northlands/units/Mounted_General.cfg:33
 msgid "lance"
-msgstr ""
+msgstr "lanca"
 
 #. [unit_type]: id=Cavalry Archer, race=human
 #: A_Story_of_the_Northlands/units/Horse_Cavalry_Archer.cfg:4
 msgid "Cavalry Archer"
-msgstr ""
+msgstr "Łucznik kawalerzysta"
 
 #. [unit_type]: id=Cavalry Archer, race=human
 #: A_Story_of_the_Northlands/units/Horse_Cavalry_Archer.cfg:19
@@ -1928,12 +2083,12 @@ msgstr ""
 #. [attack]: type=blade
 #: A_Story_of_the_Northlands/units/Horse_Cavalry_Archer.cfg:29
 msgid "short sword"
-msgstr ""
+msgstr "krótki miecz"
 
 #. [unit_type]: id=Horseman Commander, race=human
 #: A_Story_of_the_Northlands/units/Horseman_Commander.cfg:4
 msgid "Horseman Commander"
-msgstr ""
+msgstr "Konny Dowódca"
 
 #. [unit_type]: id=Horseman Commander, race=human
 #: A_Story_of_the_Northlands/units/Horseman_Commander.cfg:27
@@ -1946,7 +2101,7 @@ msgstr ""
 #. [unit_type]: id=Junior Commander, race=human
 #: A_Story_of_the_Northlands/units/Junior_Commander.cfg:4
 msgid "Junior Commander"
-msgstr ""
+msgstr "Młody Dowódca"
 
 #. [unit_type]: id=Junior Commander, race=human
 #: A_Story_of_the_Northlands/units/Junior_Commander.cfg:27
@@ -1960,12 +2115,12 @@ msgstr ""
 #: A_Story_of_the_Northlands/units/Junior_Commander.cfg:31
 #: A_Story_of_the_Northlands/units/Rancher.cfg:36
 msgid "spear"
-msgstr ""
+msgstr "włócznia"
 
 #. [unit_type]: id=Mounted General, race=human
 #: A_Story_of_the_Northlands/units/Mounted_General.cfg:4
 msgid "Mounted General"
-msgstr ""
+msgstr "Konny Generał"
 
 #. [unit_type]: id=Mounted General, race=human
 #: A_Story_of_the_Northlands/units/Mounted_General.cfg:29
@@ -1978,7 +2133,7 @@ msgstr ""
 #. [unit_type]: id=Orcish Champion, race=orc
 #: A_Story_of_the_Northlands/units/Orcish_Champion.cfg:4
 msgid "Orcish Champion"
-msgstr ""
+msgstr "Ork czempion"
 
 #. [unit_type]: id=Orcish Champion, race=orc
 #: A_Story_of_the_Northlands/units/Orcish_Champion.cfg:19
@@ -1990,12 +2145,12 @@ msgstr ""
 #. [attack]: type=blade
 #: A_Story_of_the_Northlands/units/Orcish_Champion.cfg:37
 msgid "greatsword"
-msgstr ""
+msgstr "wielki miecz"
 
 #. [unit_type]: id=Orcish Shaman, race=orc
 #: A_Story_of_the_Northlands/units/Orcish_Shaman.cfg:4
 msgid "Orcish Shaman"
-msgstr ""
+msgstr "Ork szaman"
 
 #. [unit_type]: id=Orcish Shaman, race=orc
 #: A_Story_of_the_Northlands/units/Orcish_Shaman.cfg:19
@@ -2014,19 +2169,19 @@ msgstr ""
 #: A_Story_of_the_Northlands/units/Orcish_Witch_Doctor.cfg:25
 #: A_Story_of_the_Northlands/units/Village_Woman.cfg:89
 msgid "staff"
-msgstr ""
+msgstr "laska"
 
 #. [attack]: type=cold
 #: A_Story_of_the_Northlands/units/Orcish_Shaman.cfg:34
 #: A_Story_of_the_Northlands/units/Orcish_Warlock.cfg:34
 #: A_Story_of_the_Northlands/units/Orcish_Witch_Doctor.cfg:34
 msgid "curse"
-msgstr ""
+msgstr "klątwa"
 
 #. [unit_type]: id=Orcish Warlock, race=orc
 #: A_Story_of_the_Northlands/units/Orcish_Warlock.cfg:4
 msgid "Orcish Warlock"
-msgstr ""
+msgstr "Ork czarownik"
 
 #. [unit_type]: id=Orcish Warlock, race=orc
 #: A_Story_of_the_Northlands/units/Orcish_Warlock.cfg:20
@@ -2041,7 +2196,7 @@ msgstr ""
 #. [unit_type]: id=Orcish Witch Doctor, race=orc
 #: A_Story_of_the_Northlands/units/Orcish_Witch_Doctor.cfg:4
 msgid "Orcish Witch Doctor"
-msgstr ""
+msgstr "Ork znachor"
 
 #. [unit_type]: id=Orcish Witch Doctor, race=orc
 #: A_Story_of_the_Northlands/units/Orcish_Witch_Doctor.cfg:20
@@ -2057,7 +2212,7 @@ msgstr ""
 #. [unit_type]: id=Rancher, race=human
 #: A_Story_of_the_Northlands/units/Rancher.cfg:4
 msgid "Rancher"
-msgstr ""
+msgstr "Farmer"
 
 #. [unit_type]: id=Rancher, race=human
 #: A_Story_of_the_Northlands/units/Rancher.cfg:20
@@ -2069,9 +2224,9 @@ msgstr ""
 #. [unit_type]: id=Village Woman, race=human
 #: A_Story_of_the_Northlands/units/Village_Woman.cfg:4
 msgid "female^Village Woman"
-msgstr ""
+msgstr "female^Wieśniaczka"
 
 #. [unit_type]: id=Village Woman, race=human
 #: A_Story_of_the_Northlands/units/Village_Woman.cfg:20
 msgid "Just a village woman."
-msgstr ""
+msgstr "Zwykła wieśniaczka."
