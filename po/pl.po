@@ -1631,7 +1631,7 @@ msgstr "nóż"
 #. [female]
 #: A_Story_of_the_Northlands/units/ASotN-Assassin.cfg:180
 msgid "female^Assassin"
-msgstr "female^Zabójczyni"
+msgstr "Zabójczyni"
 
 #. [unit_type]: id=ASotN_Bandit, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Bandit.cfg:4
@@ -1694,7 +1694,7 @@ msgstr "proca"
 #. [female]
 #: A_Story_of_the_Northlands/units/ASotN-Footpad.cfg:179
 msgid "female^Footpad"
-msgstr "female^Rozbójniczka"
+msgstr "Rozbójniczka"
 
 #. [unit_type]: id=ASotN_Fugitive, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Fugitive.cfg:20
@@ -1707,7 +1707,7 @@ msgstr ""
 #. [female]
 #: A_Story_of_the_Northlands/units/ASotN-Fugitive.cfg:122
 msgid "female^Fugitive"
-msgstr "female^Uciekinierka"
+msgstr "Uciekinierka"
 
 #. [unit_type]: id=ASotN_Highwayman, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Highwayman.cfg:5
@@ -1778,7 +1778,7 @@ msgstr ""
 #. [female]
 #: A_Story_of_the_Northlands/units/ASotN-Outlaw.cfg:118
 msgid "female^Outlaw"
-msgstr "female^Banitka"
+msgstr "Banitka"
 
 #. [unit_type]: id=ASotN_Poacher, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Poacher.cfg:4
@@ -1851,7 +1851,7 @@ msgstr ""
 #. [female]
 #: A_Story_of_the_Northlands/units/ASotN-Rogue.cfg:154
 msgid "female^Rogue"
-msgstr "female^Łotrzyca"
+msgstr "Łotrzyca"
 
 #. [unit_type]: id=ASotN_Ruffian, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Ruffian.cfg:4
@@ -1888,7 +1888,7 @@ msgstr ""
 #. [female]
 #: A_Story_of_the_Northlands/units/ASotN-Thief.cfg:380
 msgid "female^Thief"
-msgstr "female^Złodziejka"
+msgstr "Złodziejka"
 
 #. [unit_type]: id=ASotN_Thug, race=human
 #: A_Story_of_the_Northlands/units/ASotN-Thug.cfg:4
@@ -2224,7 +2224,7 @@ msgstr ""
 #. [unit_type]: id=Village Woman, race=human
 #: A_Story_of_the_Northlands/units/Village_Woman.cfg:4
 msgid "female^Village Woman"
-msgstr "female^Wieśniaczka"
+msgstr "Wieśniaczka"
 
 #. [unit_type]: id=Village Woman, race=human
 #: A_Story_of_the_Northlands/units/Village_Woman.cfg:20
