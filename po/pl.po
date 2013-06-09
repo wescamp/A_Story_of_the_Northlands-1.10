@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: A_Story_of_the_Northlands-1.10\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-28 16:36-0400\n"
-"PO-Revision-Date: 2013-06-02 14:18+0100\n"
+"PO-Revision-Date: 2013-06-09 16:01+0100\n"
 "Last-Translator: Paweł Jackowski <http://paweljackowski.com/>\n"
 "Language-Team: none\n"
 "Language: pl\n"
@@ -890,7 +890,7 @@ msgid ""
 msgstr ""
 "Alena i jej ludzie znacznie poprawili swoje umiejętności, atakując małe "
 "patrole orków i grupy goblinów, nie zostawiwszy ani jednego żywego. Całe "
-"oddziały wrogół znikały bez śladu."
+"oddziały wrogów znikały bez śladu."
 
 #. [part]
 #: A_Story_of_the_Northlands/scenarios/05_Shadows.cfg:9
